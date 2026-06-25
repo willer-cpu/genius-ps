@@ -1,4 +1,26 @@
-YAML
+name: Deploy Genius PS
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
       - name: Injetar chave do Gemini no HTML
         env:
           GEMINI_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -10,14 +32,25 @@ YAML
             print('ERRO: secret GEMINI_API_KEY esta vazio ou nao encontrado')
             sys.exit(1)
           
-          # Lendo o arquivo principal
           html = open('genius_ps_completo.html', encoding='utf-8').read()
           
           if 'COLE_SUA_CHAVE_AQUI' not in html:
-            print('ERRO CRÍTICO: O texto [COLE_SUA_CHAVE_AQUI] nao foi encontrado no topo do arquivo genius_ps_completo.html!')
-            sys.exit(1) # Isso vai fazer o GitHub Actions avisar que falhou!
+            print('ERRO CRÍTICO: O texto [COLE_SUA_CHAVE_AQUI] nao foi encontrado no topo do arquivo!')
+            sys.exit(1)
           else:
             html = html.replace('COLE_SUA_CHAVE_AQUI', key)
             open('genius_ps_completo.html', 'w', encoding='utf-8').write(html)
             print('OK: chave injetada com sucesso no arquivo principal')
           "
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v4
+
+      - name: Empacotar arquivos para deploy
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Publicar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
