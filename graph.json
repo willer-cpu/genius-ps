@@ -1,0 +1,2462 @@
+{
+  "nodes": [
+    {
+      "id": "20260525-weekly-interno",
+      "label": "Reunião semanal para definir arquitetura",
+      "type": "reunion",
+      "r": 11,
+      "meta": {
+        "data": "2026-05-25",
+        "resumo": "A reunião estabeleceu diretrizes para o projeto Gênios, definindo arquitetura técnica, escopo do MVP de 30 dias e prioridades operacionais, com foco na escalabilidade via Google Cloud Platform e curadoria de dados. O objetivo é centralizar conhecimentos e aumentar a produtividade operacional da equipe de PS.",
+        "tipo_documento": "reuniao_operacional",
+        "tags": [
+          "genius",
+          "arquitetura",
+          "gcp",
+          "mvp",
+          "roadmap",
+          "engenharia",
+          "dados",
+          "rag",
+          "blipdocs",
+          "llm",
+          "vectorsearch",
+          "embedding",
+          "produtividade",
+          "planejamento"
+        ],
+        "visibilidade": "publico",
+        "nivel_confidencialidade": "interno",
+        "status": "ativo",
+        "owner": "rafael.barreto@blip.ai",
+        "decisoes_tomadas": [
+          "O roadmap do projeto Gênios será finalizado em uma sessão de brainstorming.",
+          "A validação técnica da arquitetura com a equipe de plataforma é um requisito fundamental para o início do projeto.",
+          "Vania Rodenas é a responsável pela validação da arquitetura e curadoria de dados do projeto.",
+          "A estratégia do MVP prioriza a segmentação de casos de uso específicos e dados recentes.",
+          "A responsabilidade pela veracidade dos documentos será das gerências das áreas.",
+          "Serão implementados fóruns quinzenais de status report para alinhamento entre as frentes de agentes (QA, Insight, Gênios).",
+          "A equipe buscará criar visões assíncronas do projeto para otimizar o tempo das reuniões síncronas."
+        ],
+        "action_items": [
+          {
+            "responsavel": "vania.rodenas@blip.ai",
+            "acao": "Validar ferramentas GCP com o time de plataforma.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "The group",
+            "acao": "Construir Roadmap em sessão de brainstorming.",
+            "prazo": "próxima quarta-feira"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Agendar a sessão de brainstorming para a próxima quarta-feira.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Compartilhar os roadmaps atuais das frentes de QA e Insight.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "euleno.sousa@blip.ai, joao.figueiredo@blip.ai, willer.batista@blip.ai, vania.rodenas@blip.ai",
+            "acao": "Revisar o fluxo técnico da RAG e o plano de 30 dias.",
+            "prazo": "antes da reunião de quarta-feira"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Agendar encontro semanal para a equipe.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Desenvolver relatórios para otimizar o tempo das reuniões (visões assíncronas).",
+            "prazo": "indefinido"
+          }
+        ],
+        "proximos_passos": [
+          "Realizar sessão de brainstorming na próxima quarta-feira para definir o plano de execução e priorizar funcionalidades do projeto.",
+          "Validar a arquitetura técnica com a equipe de plataforma.",
+          "Estabelecer encontro semanal para a equipe.",
+          "Implementar fóruns quinzenais de status report para alinhamento contínuo entre as frentes de agentes (QA, Insight, Gênios).",
+          "Buscar apoio adicional com a liderança para reforçar o time de engenharia, se necessário, após a consolidação da execução."
+        ],
+        "mencoes_produtos_blip": [
+          "Blip Docs"
+        ]
+      }
+    },
+    {
+      "id": "p-rafael.barreto@blip.ai",
+      "label": "Rafael Barreto",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-vania.rodenas@blip.ai",
+      "label": "Vania Rodenas",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-euleno.sousa@blip.ai",
+      "label": "Euleno Sousa",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-joao.figueiredo@blip.ai",
+      "label": "Joao Figueiredo",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-willer.batista@blip.ai",
+      "label": "Willer Batista",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-vinicius.bandeira@blip.ai",
+      "label": "Vinicius Bandeira",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "a-cs",
+      "label": "CS",
+      "type": "area",
+      "r": 7,
+      "meta": {}
+    },
+    {
+      "id": "a-dados",
+      "label": "DADOS",
+      "type": "area",
+      "r": 7,
+      "meta": {}
+    },
+    {
+      "id": "a-engenharia",
+      "label": "ENGENHARIA",
+      "type": "area",
+      "r": 7,
+      "meta": {}
+    },
+    {
+      "id": "a-ops",
+      "label": "OPS",
+      "type": "area",
+      "r": 7,
+      "meta": {}
+    },
+    {
+      "id": "r-weekly",
+      "label": "weekly",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-genius",
+      "label": "#genius",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-arquitetura",
+      "label": "#arquitetura",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-gcp",
+      "label": "#gcp",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-mvp",
+      "label": "#mvp",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-roadmap",
+      "label": "#roadmap",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-engenharia",
+      "label": "#engenharia",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-dados",
+      "label": "#dados",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-rag",
+      "label": "#rag",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-blipdocs",
+      "label": "#blipdocs",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-llm",
+      "label": "#llm",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-vectorsearch",
+      "label": "#vectorsearch",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-embedding",
+      "label": "#embedding",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-produtividade",
+      "label": "#produtividade",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-planejamento",
+      "label": "#planejamento",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "20260528-weekly-interno",
+      "label": "Definição da estratégia de MVP com Gemin",
+      "type": "reunion",
+      "r": 11,
+      "meta": {
+        "data": "2026-05-28",
+        "resumo": "A reunião definiu a estratégia do Produto Mínimo Viável (MVP) para o Genius PS, priorizando a integração com Gemini e Google Drive para testar a viabilidade em 30 dias. Paralelamente, foi acordado o planejamento e desenvolvimento de uma solução robusta com banco vetorial, com discussões sobre desafios técnicos, governança de dados e alocação de tarefas.",
+        "tipo_documento": "reuniao_operacional",
+        "tags": [
+          "mvp",
+          "googledrive",
+          "gemini",
+          "arquitetura",
+          "bancovetorial",
+          "tokens",
+          "governanca",
+          "gcp",
+          "azuredevops",
+          "slack",
+          "ia",
+          "llm",
+          "rag",
+          "qa",
+          "insightagents",
+          "frontend",
+          "backend",
+          "autenticacao",
+          "documentacao",
+          "planejamento"
+        ],
+        "visibilidade": "publico",
+        "nivel_confidencialidade": "interno",
+        "status": "ativo",
+        "owner": "vinicius.bandeira@blip.ai",
+        "decisoes_tomadas": [
+          "Priorizar o desenvolvimento de um MVP utilizando Gemini e Google Drive para testar a viabilidade do produto.",
+          "Acordar o desenvolvimento paralelo de uma solução robusta com banco vetorial para garantir performance e escalabilidade a longo prazo.",
+          "Definir o prazo de 30 dias para a entrega do MVP funcional.",
+          "Estabelecer uma governança rígida para a estruturação e manutenção dos documentos no Google Drive.",
+          "Realizar uma reunião técnica focada para alinhar o cronograma estruturante e os passos para as duas frentes do projeto."
+        ],
+        "action_items": [
+          {
+            "responsavel": "joao.figueiredo@blip.ai",
+            "acao": "Estruturar a arquitetura do Google Drive para categorizar os documentos necessários para o projeto.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Coletar os documentos necessários com as gerências pertinentes para o preenchimento da estrutura do Drive.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": [
+              "willer.batista@blip.ai",
+              "euleno.sousa@blip.ai",
+              "vania.rodenas@blip.ai"
+            ],
+            "acao": "Planejar a solução robusta, definindo cronograma e passos técnicos para a solução de IA escalável utilizando Google Cloud Platform.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "luis.motta@blip.ai",
+            "acao": "Desenvolver a interface de usuário (front end) para a solução simplificada.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": [
+              "euleno.sousa@blip.ai",
+              "vania.rodenas@blip.ai"
+            ],
+            "acao": "Planejar a estratégia de gerenciamento de banco de dados, incluindo autenticação e controle de sessão.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "The group",
+            "acao": "Realizar uma reunião técnica para alinhar o cronograma estruturante e os passos para as duas frentes do projeto.",
+            "prazo": "próxima terça-feira"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Integrar o Slack com o Azure DevOps para automatizar a criação e o acompanhamento das tarefas do projeto.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Conectar-se com Alan para alinhar as necessidades de documentos para os Insight Agents.",
+            "prazo": "indefinido"
+          }
+        ],
+        "proximos_passos": [
+          "Realizar uma reunião técnica focada na parte técnica para tangibilizar o cronograma e os passos de implementação até a próxima terça-feira.",
+          "Próxima atualização de progresso sobre o avanço do cronograma até terça-feira, dia 2."
+        ],
+        "mencoes_produtos_blip": [
+          "Brain",
+          "Insight Agents",
+          "QA"
+        ]
+      }
+    },
+    {
+      "id": "p-luis.motta@blip.ai",
+      "label": "Luis Motta",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "t-googledrive",
+      "label": "#googledrive",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-gemini",
+      "label": "#gemini",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-bancovetorial",
+      "label": "#bancovetorial",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-tokens",
+      "label": "#tokens",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-governanca",
+      "label": "#governanca",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-azuredevops",
+      "label": "#azuredevops",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-slack",
+      "label": "#slack",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-ia",
+      "label": "#ia",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-qa",
+      "label": "#qa",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-insightagents",
+      "label": "#insightagents",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-frontend",
+      "label": "#frontend",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-backend",
+      "label": "#backend",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-autenticacao",
+      "label": "#autenticacao",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-documentacao",
+      "label": "#documentacao",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "20260601-weekly-interno",
+      "label": "Discussão da infraestrutura técnica e de",
+      "type": "reunion",
+      "r": 11,
+      "meta": {
+        "data": "2026-06-01",
+        "resumo": "A reunião focou na discussão da infraestrutura técnica e na definição do MVP para o projeto Genius PS como uma base de conhecimento centralizada. Decidiu-se abandonar o EA Studio em favor de uma aplicação externa personalizada, utilizando Python e APIs para integrar a inteligência artificial com permissões de pastas do Google Drive. O MVP visa consolidar o Genius como uma base de conhecimento confiável, com validação através de uma demonstração executiva em 20 dias.",
+        "tipo_documento": "reuniao_operacional",
+        "tags": [
+          "infraestrutura",
+          "arquitetura",
+          "mvp",
+          "googledrive",
+          "ia",
+          "python",
+          "api",
+          "backend",
+          "frontend",
+          "poc",
+          "antigraft",
+          "miro",
+          "rag",
+          "gemini",
+          "professionalservices",
+          "designconversacional",
+          "delivery"
+        ],
+        "visibilidade": "publico",
+        "nivel_confidencialidade": "interno",
+        "status": "ativo",
+        "owner": "",
+        "decisoes_tomadas": [
+          "Abandonar o EA Studio em favor de uma aplicação externa personalizada para garantir maior controle sobre o sistema.",
+          "Armazenar metadados simples no Google Drive, evitando o processamento pesado de arquivos complexos como vídeos e ZIPs.",
+          "Implementar controle de acesso através da autenticação Google, lendo as permissões de pasta do usuário para a Inteligência Artificial.",
+          "Focar o MVP em consolidar o Genius como uma base de conhecimento confiável, atuando como um \"segundo cérebro\".",
+          "Realizar uma demonstração executiva do MVP em até 20 dias, simulando o fluxo operacional para apresentar o valor da ferramenta.",
+          "Utilizar o próprio projeto Genius como piloto para validar a estrutura proposta e a viabilidade técnica.",
+          {
+            "Segregar tarefas": "o backend será responsável por funções determinísticas, enquanto a Inteligência Artificial atuará na camada de inteligência e processamento de metadados."
+          },
+          "Focar inicialmente nas personas de \"Insight Agents\" (Design Conversacional) e \"Delivery\" para validar a solução.",
+          "Estabelecer o Genius como a fonte única de verdade para a área de Professional Services.",
+          "Utilizar a plataforma Miro para centralizar links e rascunhos de design da interface."
+        ],
+        "action_items": [
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Solicitar ao desenvolvedor Marcio a criação de 2 máquinas virtuais, uma dedicada ao front end e outra ao back end.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Conversar com Vinicius sobre a necessidade de alocar um desenvolvedor para realizar uma consultoria de arquitetura no projeto.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "willer.batista@blip.ai",
+            "acao": "Desenvolver a estrutura de prova de conceito (PoC) baseada no documento de referência utilizando softwares gratuitos para validação.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "luis.motta@blip.ai",
+            "acao": "Realizar testes com a ferramenta Antigraft e focar no desenvolvimento da interface front end para a demonstração do Genius.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "luis.motta@blip.ai",
+            "acao": "Organizar os links no Miro para facilitar o acesso e a organização da equipe.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "luis.motta@blip.ai",
+            "acao": "Desenhar a interface e a estrutura navegável do projeto para refletir a realidade do produto.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": [
+              "luis.motta@blip.ai",
+              "joao.figueiredo@blip.ai"
+            ],
+            "acao": "Criar um rascunho da estrutura navegável do site para validar o melhor caminho para a versão 1.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Enviar as anotações da reunião da última quinta-feira para Luis Motta via canal de mensagens.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "joao.figueiredo@blip.ai",
+            "acao": "Apresentar a arquitetura proposta e a estrutura de pastas para Marcio durante a reunião diária.",
+            "prazo": "indefinido"
+          }
+        ],
+        "proximos_passos": [
+          "Realizar uma demonstração executiva do MVP em até 20 dias.",
+          "Continuar a concepção do produto final, que utilizará bancos de dados vetoriais e RAG (Retrieval-Augmented Generation) para maior robustez, substituindo a dependência do Google Drive a longo prazo.",
+          "João Figueiredo alinhar a arquitetura desenhada e os requisitos técnicos com Márcio em reuniões diárias."
+        ],
+        "mencoes_produtos_blip": []
+      }
+    },
+    {
+      "id": "t-infraestrutura",
+      "label": "#infraestrutura",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-python",
+      "label": "#python",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-api",
+      "label": "#api",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-poc",
+      "label": "#poc",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-antigraft",
+      "label": "#antigraft",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-miro",
+      "label": "#miro",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-professionalservices",
+      "label": "#professionalservices",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-designconversacional",
+      "label": "#designconversacional",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-delivery",
+      "label": "#delivery",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "20260612-weekly-ginius",
+      "label": "Alinhamento do projeto Ginius, definindo",
+      "type": "reunion",
+      "r": 11,
+      "meta": {
+        "data": "2026-06-12",
+        "resumo": "A reunião semanal do projeto Ginius alinhou o roteiro de entregas para 30 e 90 dias, focando na estratégia de MVP e na arquitetura ideal no Google Cloud Platform. Foram discutidos desafios técnicos de infraestrutura, ingestão de dados e o cronograma de lançamento do MVP para 13 de julho.",
+        "tipo_documento": "reuniao_operacional",
+        "tags": [
+          "ginius",
+          "mvp",
+          "roadmap",
+          "googlecloudplatform",
+          "gcp",
+          "terraform",
+          "ingestaodedados",
+          "googledrive",
+          "airflow",
+          "cloudrun",
+          "bigquery",
+          "googlecloudstorage",
+          "rag",
+          "servicedesign",
+          "figma",
+          "backend",
+          "frontend",
+          "infraestrutura",
+          "monitoramento",
+          "dataplex",
+          "databricks",
+          "vpn",
+          "blipinternal"
+        ],
+        "visibilidade": "publico",
+        "nivel_confidencialidade": "interno",
+        "status": "ativo",
+        "owner": "rafael.barreto@blip.ai",
+        "decisoes_tomadas": [
+          "O lançamento do Mínimo Produto Viável (MVP) foi decidido para 13 de julho.",
+          "A estratégia do MVP equilibrará soluções rápidas com o desenvolvimento da arquitetura ideal no Google Cloud Platform.",
+          "A ingestão de dados priorizará o Google Cloud Storage.",
+          "A estrutura de pastas para o projeto foi validada pela equipe.",
+          "Foi decidido agendar uma reunião com Márcio na segunda-feira para validar o plano de backend e alinhar os esforços do roadmap."
+        ],
+        "action_items": [
+          {
+            "responsavel": "daniel.alves@blip.ai",
+            "acao": "Enviar a transcrição da reunião do Flow para Rafael.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Criar cartões no sistema de gestão com todos os pontos pendentes discutidos.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "daniel.alves@blip.ai",
+            "acao": "Adicionar comentários e informações detalhadas nos cartões criados pelo Rafael.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "daniel.alves@blip.ai",
+            "acao": "Fornecer prazos e expectativas macro sobre os itens do projeto via Slack.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "daniel.alves@blip.ai",
+            "acao": "Corrigir o repositório de Terraform para restabelecer a sincronização da infraestrutura.",
+            "prazo": "imediato"
+          },
+          {
+            "responsavel": "daniel.alves@blip.ai",
+            "acao": "Realizar o provisionamento do ambiente após o desbloqueio da esteira de Terraform.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "daniel.alves@blip.ai",
+            "acao": "Contatar Google para discutir orientações iniciais sobre agentes com a equipe do Google.",
+            "prazo": "próxima terça-feira"
+          },
+          {
+            "responsavel": "luis.motta@blip.ai",
+            "acao": "Avaliar se é possível dispensar o desenvolvimento de um frontend para o MVP do Drive ou iniciar a construção caso seja necessário.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Realizar a curadoria dos materiais de Service Design (SD) para o projeto.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "willer.batista@blip.ai",
+            "acao": "Determinar o processo de gestão de Figma e realizar a curadoria dos materiais de Figma.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "joao.figueiredo@blip.ai",
+            "acao": "Realizar a curadoria dos materiais de Service Design (SD), solicitando ajuda de Bia e Lari conforme necessário.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "marcio@blip.ai",
+            "acao": "Realizar pesquisa inicial sobre a viabilidade técnica e requisitos do backend para o projeto.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "joao.figueiredo@blip.ai",
+            "acao": "Organizar uma reunião durante a daily de segunda-feira com Márcio e Rafa para apresentar e validar a proposta do cronograma de trabalho.",
+            "prazo": "próxima segunda-feira"
+          }
+        ],
+        "proximos_passos": [
+          "Reunião com Márcio e Rafa na daily de segunda-feira para validar o plano de backend e o cronograma.",
+          "Contato com a equipe do Google na próxima terça-feira para discutir orientações sobre agentes.",
+          "Daniel Alves continuará detalhando o cronograma para garantir a administração das prioridades.",
+          "Vinícius Bandeira reportará o progresso do cronograma de 30 e 90 dias ao Eduardo na segunda-feira."
+        ],
+        "mencoes_produtos_blip": [
+          "Genius PS"
+        ]
+      }
+    },
+    {
+      "id": "cli-ginius",
+      "label": "Ginius",
+      "type": "client",
+      "r": 13,
+      "meta": {}
+    },
+    {
+      "id": "p-marcio@blip.ai",
+      "label": "Marcio",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-lari@blip.ai",
+      "label": "Lari",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-eduardo@blip.ai",
+      "label": "Eduardo",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-daniel.alves@blip.ai",
+      "label": "Daniel Alves",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-bia@blip.ai",
+      "label": "Bia",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "t-ginius",
+      "label": "#ginius",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-googlecloudplatform",
+      "label": "#googlecloudplatform",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-terraform",
+      "label": "#terraform",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-ingestaodedados",
+      "label": "#ingestaodedados",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-airflow",
+      "label": "#airflow",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-cloudrun",
+      "label": "#cloudrun",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-bigquery",
+      "label": "#bigquery",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-googlecloudstorage",
+      "label": "#googlecloudstorage",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-servicedesign",
+      "label": "#servicedesign",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-figma",
+      "label": "#figma",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-monitoramento",
+      "label": "#monitoramento",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-dataplex",
+      "label": "#dataplex",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-databricks",
+      "label": "#databricks",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-vpn",
+      "label": "#vpn",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-blipinternal",
+      "label": "#blipinternal",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "20260615-weekly-genius",
+      "label": "Equipe valida cronograma do MVP do Googl",
+      "type": "reunion",
+      "r": 11,
+      "meta": {
+        "data": "2026-06-15",
+        "resumo": "A equipe validou o cronograma do MVP do Google Drive, formalizou a fase de Discovery, e decidiu priorizar o desenvolvimento de uma interface dedicada para o produto Genius, com foco no lançamento beta até 13 de julho.",
+        "tipo_documento": "reuniao_operacional",
+        "tags": [
+          "googledrive",
+          "mvp",
+          "frontend",
+          "backend",
+          "metadados",
+          "ingestao",
+          "cronograma",
+          "golive",
+          "figma",
+          "gemini",
+          "mcp"
+        ],
+        "visibilidade": "publico",
+        "nivel_confidencialidade": "interno",
+        "status": "ativo",
+        "owner": "vinicius.bandeira@blip.ai",
+        "decisoes_tomadas": [
+          "Formalização da fase de Discovery para documentar esforços prévios de criação e estruturação do Drive.",
+          "Priorização do desenvolvimento de uma interface dedicada (frontend) para garantir uma experiência de produto diferenciada.",
+          "Atribuição da tarefa de desenvolver a interface (frontend) a Luis Motta (Motinha).",
+          "Decisão de trabalhar em um ciclo de interação onde a curadoria de materiais específicos precede e é seguida pela ingestão e classificação de metadados.",
+          "Lançamento em versão beta para um público selecionado, incluindo lideranças e clientes prioritários como o Mercado Pago, até 13 de julho.",
+          "Documentação do projeto será realizada paralelamente, com Luis Motta responsável pelo frontend e Marcio Curvello, João Figueiredo e Euleno Sousa pela parte estrutural.",
+          "Atualização do cronograma para incluir a fase de Discovery e ajustar o início da classificação de metadados para 22 de julho."
+        ],
+        "action_items": [
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Monitorar chamado para verificar o status do chamado aberto para listar os proprietários de drives.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "joao.figueiredo@blip.ai",
+            "acao": "Planejar metadados e definir o processo de classificação dos metadados dos arquivos.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "joao.figueiredo@blip.ai",
+            "acao": "Buscar auxílio de Euleno Sousa para a definição dos processos de metadados.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Cobrar Willer Alberto Batista sobre o andamento da ingestão do Figma.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "marcio.curvello@blip.ai",
+            "acao": "Realizar pesquisa pré-desenvolvimento e obter acessos necessários para a API do Drive.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "luis.motta@blip.ai",
+            "acao": "Criar a interface visual (frontend) para o projeto.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "marcio.curvello@blip.ai, luis.motta@blip.ai",
+            "acao": "Realizar alinhamento entre as expectativas do backend e do frontend.",
+            "prazo": "após 2026-07-19"
+          },
+          {
+            "responsavel": "O grupo",
+            "acao": "Mapear habilidades e identificar perguntas chaves para treinar as capacidades do agente.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "marcio.curvello@blip.ai",
+            "acao": "Realizar alinhamento da linha 28 com a equipe.",
+            "prazo": "a partir da próxima segunda-feira"
+          },
+          {
+            "responsavel": "vinicius.bandeira@blip.ai",
+            "acao": "Planejar o cronograma de Go Live, incluindo estratégias de comunicação para as lideranças e as partes interessadas.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "vinicius.bandeira@blip.ai",
+            "acao": "Realizar a demonstração do projeto e comunicar a disponibilização da primeira versão para os testadores definidos.",
+            "prazo": "2026-07-13"
+          },
+          {
+            "responsavel": "luis.motta@blip.ai",
+            "acao": "Documentar a parte de frontend do projeto.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "marcio.curvello@blip.ai, joao.figueiredo@blip.ai, euleno.sousa@blip.ai",
+            "acao": "Documentar a parte estrutural do projeto.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "marcio.curvello@blip.ai",
+            "acao": "Conectar o Genius aos agentes (DC, Inside e Brain) utilizando módulos MCP.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "joao.figueiredo@blip.ai",
+            "acao": "Pesquisar e desenvolver o processo de classificação de metadados e definição de banco de dados para a ingestão de arquivos.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Obter os dados do chamado de criação e estruturação do drive para preencher as datas de conclusão no cronograma.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "marcio.curvello@blip.ai",
+            "acao": "Avaliar a necessidade de persistência de dados (banco de dados) durante a etapa de pesquisa pré-desenvolvimento.",
+            "prazo": "indefinido"
+          }
+        ],
+        "proximos_passos": [
+          "Reunião de alinhamento entre Luis Motta, Marcio Curvello e Daniel Alves após o dia 19 de julho.",
+          "Revisão dos próximos passos e do plano para o projeto de 90 dias na reunião agendada para a próxima quinta-feira."
+        ],
+        "mencoes_produtos_blip": [
+          "Genius",
+          "Model Context Protocol (MCP)",
+          "DC",
+          "Insight",
+          "Brain"
+        ]
+      }
+    },
+    {
+      "id": "p-marcio.curvello@blip.ai",
+      "label": "Marcio Curvello",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "t-metadados",
+      "label": "#metadados",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-ingestao",
+      "label": "#ingestao",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-cronograma",
+      "label": "#cronograma",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-golive",
+      "label": "#golive",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-mcp",
+      "label": "#mcp",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "20260618-weekly-interno",
+      "label": "Reunião semanal sobre estratégias de inf",
+      "type": "reunion",
+      "r": 11,
+      "meta": {
+        "data": "2026-06-18",
+        "resumo": "A reunião definiu estratégias de infraestrutura, governança de custos e o desenvolvimento do Produto Mínimo Viável 1 (MVP1) do Genius PS. Problemas de infraestrutura no GCP foram resolvidos, e o design do MVP1 prioriza usabilidade simples e transparência das fontes documentais, com classificação de metadados avançando com IA. A decisão principal foi manter o desenvolvimento próprio do MVP1 para autonomia, avaliando futura integração com o sistema Brain.",
+        "tipo_documento": "reuniao_operacional",
+        "tags": [
+          "infraestrutura",
+          "governancadecustos",
+          "mvp1",
+          "googlecloudplatform",
+          "bigquery",
+          "inteligenciaartificial",
+          "metadados",
+          "servicedesign",
+          "testesa/b",
+          "api",
+          "gemini"
+        ],
+        "visibilidade": "publico",
+        "nivel_confidencialidade": "interno",
+        "status": "ativo",
+        "owner": "rafael.barreto@blip.ai",
+        "decisoes_tomadas": [
+          "Problemas de infraestrutura no Google Cloud Platform foram resolvidos.",
+          "O controle de custos tornou-se prioridade devido aos riscos de performance.",
+          "A implementação de alertas de custo é essencial.",
+          "O design do Produto Mínimo Viável 1 prioriza a usabilidade simples e a transparência das fontes documentais.",
+          "A classificação de metadados avança com protótipos usando Inteligência Artificial.",
+          "Manter o desenvolvimento próprio do Produto Mínimo Viável 1 para garantir autonomia.",
+          "Testes comparativos avaliarão a integração com o sistema Brain futuramente.",
+          "O MVP1 manterá funcionalidades simples, evitando gerenciamento complexo de sessões, mas garantindo que a IA indique claramente as fontes dos documentos consultados.",
+          "O prazo para a entrega do MVP1 está definido para o dia 13.",
+          "A estratégia definida é manter o desenvolvimento do MVP próprio para garantir flexibilidade e autonomia, enquanto se avalia a integração com o Brain."
+        ],
+        "action_items": [
+          {
+            "responsavel": "daniel.alves@blip.ai",
+            "acao": "Provisionar a infraestrutura necessária e realizar a subida do pull request para viabilizar testes no ambiente.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "daniel.alves@blip.ai",
+            "acao": "Configurar o alerta de custos do ambiente e alinhar o nível de gastos aceitável com a equipe.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "joao.figueiredo@blip.ai",
+            "acao": "Enviar o link do mural para a Bela e liberar o acesso à arquitetura do drive.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "joao.figueiredo@blip.ai",
+            "acao": "Criar um script para classificação de metadados utilizando inteligência artificial e apresentar o protótipo na próxima reunião.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Entrar em contato com o Márcio para confirmar se ele obteve os acessos necessários para o desenvolvimento.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "bella.trindade@blip.ai",
+            "acao": "Analisar a viabilidade técnica da integração do projeto com o Brain junto com a Ju e trazer um retorno na próxima reunião.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Escalar o chamado de suporte técnico pendente referente à liberação da chave de API do Gemini para o ambiente de produção.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "vinicius.bandeira@blip.ai",
+            "acao": "Realizar um teste AB comparando o desempenho com e sem o Brain e com e sem a interface proprietária para avaliar a eficácia e a flexibilidade.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "O grupo",
+            "acao": "Desenvolver um produto proprietário inicial para garantir flexibilidade e manutenção independente enquanto se avalia a integração com o Brain.",
+            "prazo": "indefinido"
+          }
+        ],
+        "proximos_passos": [
+          "João Figueiredo apresentará um script para classificação de metadados utilizando IA na próxima segunda-feira.",
+          "João Figueiredo apresentará o protótipo funcional para a classificação de metadados na próxima segunda-feira.",
+          "Bella Trindade coordenará com seu time a avaliação técnica para verificar a viabilidade de integrar o Brain à solução, trazendo um retorno sobre essa possibilidade na próxima reunião.",
+          "Bella Trindade conduzirá descobertas técnicas nos próximos dois dias para decidir qual modelo de linguagem utilizar.",
+          "Avaliar a possibilidade futura de monetização de conectores caso a integração com o Brain seja adotada."
+        ],
+        "mencoes_produtos_blip": [
+          "Genius PS"
+        ]
+      }
+    },
+    {
+      "id": "p-bella.trindade@blip.ai",
+      "label": "Bella Trindade",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "t-governancadecustos",
+      "label": "#governancadecustos",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-mvp1",
+      "label": "#mvp1",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-inteligenciaartificial",
+      "label": "#inteligenciaartificial",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-testesa/b",
+      "label": "#testesa/b",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "20260622-weekly-interno",
+      "label": "Reunião semanal do Genius PS para defini",
+      "type": "reunion",
+      "r": 11,
+      "meta": {
+        "data": "2026-06-22",
+        "resumo": "A reunião definiu a estrutura de tarefas do back-end e avaliou o progresso técnico do projeto. As tarefas de desenvolvimento foram divididas em unidades menores e houve discussões sobre classificação de metadados, interface conversacional e avaliação de ferramentas de IA e conectores.",
+        "tipo_documento": "reuniao_operacional",
+        "tags": [
+          "backend",
+          "frontend",
+          "ia",
+          "metadados",
+          "classificacao",
+          "python",
+          "googledrive",
+          "figma",
+          "conectores",
+          "cronograma",
+          "desenvolvimento"
+        ],
+        "visibilidade": "publico",
+        "nivel_confidencialidade": "interno",
+        "status": "ativo",
+        "owner": "",
+        "decisoes_tomadas": [
+          "Marcio Curvello criará tarefas menores para o desenvolvimento do backend, baseadas em estimativas de 80 horas, para melhor gestão do cronograma.",
+          "Os membros concordaram em enviar os links dos arquivos para João Figueiredo para que ele realize o processamento local de classificação de metadados."
+        ],
+        "action_items": [
+          {
+            "responsavel": "marcio.curvello@blip.ai",
+            "acao": "Ajustar a quantidade de horas e a estrutura das tarefas do backend no cronograma.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "marcio.curvello@blip.ai",
+            "acao": "Realizar a reunião de 30 minutos de contexto com Daniel e Motta sobre o plano de 90 dias.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "marcio.curvello@blip.ai",
+            "acao": "Conversar com GRZ sobre o início do desenvolvimento do backend para não restringir o prazo.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "joao.figueiredo@blip.ai",
+            "acao": "Trabalhar nas melhorias do script Python de classificação de metadados para torná-lo mais robusto.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Encaminhar os links das pastas do Google Drive para que a classificação dos arquivos seja realizada.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "luis.motta@blip.ai",
+            "acao": "Concluir a descrição funcional e a ideação detalhada de cada tela do front end.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "bella.trindade@blip.ai",
+            "acao": "Verificar com Ju o status técnico dos conectores no Brain e reportar na próxima reunião.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Conversar com Willer sobre o progresso dos testes de conversão de design no Figma.",
+            "prazo": "indefinido"
+          }
+        ],
+        "proximos_passos": [
+          "Marcio Curvello agendou uma reunião de alinhamento com Daniel e Luis Motta para tratar do plano de backend de 90 dias.",
+          "Marcio Curvello planeja discutir com a equipe de GRZ sobre o início do desenvolvimento de backend para otimizar o prazo de entrega do MVP 1.",
+          "A confirmação sobre o escopo dos conectores (Google Drive ou outras APIs externas) será esclarecida em reuniões futuras."
+        ],
+        "mencoes_produtos_blip": [
+          "Brain"
+        ]
+      }
+    },
+    {
+      "id": "t-classificacao",
+      "label": "#classificacao",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-conectores",
+      "label": "#conectores",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-desenvolvimento",
+      "label": "#desenvolvimento",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "20240625-figma-claro-tv",
+      "label": "Suporte técnico Claro TV",
+      "type": "figma",
+      "r": 9,
+      "meta": {
+        "data": "2026-06-25",
+        "resumo": "Este fluxo detalha a jornada conversacional para o suporte técnico da Claro TV, abrangendo desde problemas de sinal e canais até questões de equipamentos e recarga, com opções de autoatendimento e direcionamento para atendimento humano.",
+        "tipo_documento": "jornada_conversacional",
+        "tags": [
+          "figma",
+          "jornada",
+          "suporte",
+          "claro-tv",
+          "telecom",
+          "atendimento"
+        ],
+        "visibilidade": "restrito",
+        "nivel_confidencialidade": "cliente",
+        "status": "ativo",
+        "owner": "",
+        "validacoes_backend": [
+          "Validação de código de erro (entre 700 e 999) para direcionamento de solução.",
+          "Verificação de elegibilidade para troca de equipamento/controle remoto.",
+          "Verificação de pacote de canais e pagamentos pendentes.",
+          "Verificação de status de recarga."
+        ],
+        "tratamento_excecoes": [
+          "Erro de código não reconhecido na tela direciona para agendamento de visita técnica ou pergunta de resolução.",
+          "Problemas persistentes após autoatendimento direcionam para atendimento humano ou agendamento de visita técnica."
+        ],
+        "trackings_tags": [
+          [
+            "CONDIÇÃO DE TRACKING NÃO DESENHADA"
+          ]
+        ],
+        "transicoes_flows": [
+          "Falar com atendente (implica transferência para atendimento humano)"
+        ]
+      }
+    },
+    {
+      "id": "cli-Claro TV",
+      "label": "Claro Tv",
+      "type": "client",
+      "r": 13,
+      "meta": {}
+    },
+    {
+      "id": "a-dc",
+      "label": "DC",
+      "type": "area",
+      "r": 7,
+      "meta": {}
+    },
+    {
+      "id": "t-jornada",
+      "label": "#jornada",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-suporte",
+      "label": "#suporte",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-claro-tv",
+      "label": "#claro-tv",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-telecom",
+      "label": "#telecom",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-atendimento",
+      "label": "#atendimento",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "20240730-figma-netempresas",
+      "label": "Menu Suporte Técnico NET e Empresas",
+      "type": "figma",
+      "r": 9,
+      "meta": {
+        "data": "2024-07-30",
+        "resumo": "Este fluxo descreve o menu principal de suporte técnico para clientes NET e Empresas, permitindo a seleção de diferentes categorias de suporte e direcionando para serviços específicos como mudança de endereço, com tratamento para inputs inesperados.",
+        "tipo_documento": "jornada_conversacional",
+        "tags": [
+          "figma",
+          "jornada",
+          "menu",
+          "suporte",
+          "net",
+          "empresas",
+          "telecom"
+        ],
+        "visibilidade": "publico",
+        "nivel_confidencialidade": "cliente",
+        "status": "ativo",
+        "owner": "",
+        "validacoes_backend": [],
+        "tratamento_excecoes": [
+          "O bloco `InputInesperado` trata entradas do usuário que não correspondem às opções esperadas, retornando ao bloco `EscolherServico` para uma nova tentativa."
+        ],
+        "trackings_tags": [],
+        "transicoes_flows": [
+          "Transição para sub-fluxo de Suporte & inaent.",
+          "Transição para sub-fluxo de Suporte a TV.",
+          "Transição para sub-fluxo de Suporte telefone fixo.",
+          "Transição para sub-fluxo de Menu suporte net Empresas.",
+          "Transição para sub-fluxo de Mudança de endereço."
+        ]
+      }
+    },
+    {
+      "id": "cli-net-e-empresas",
+      "label": "Net E Empresas",
+      "type": "client",
+      "r": 13,
+      "meta": {}
+    },
+    {
+      "id": "t-menu",
+      "label": "#menu",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-net",
+      "label": "#net",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-empresas",
+      "label": "#empresas",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "20240730-figma-interno",
+      "label": "[P] Peer Nomination",
+      "type": "figma",
+      "r": 9,
+      "meta": {
+        "data": "2024-07-30",
+        "resumo": "Este fluxo permite que um usuário indique um colega de trabalho, fornecendo o nome do indicado e o motivo da nomeação, com validações para evitar indicações duplicadas e garantir a precisão dos dados.",
+        "tipo_documento": "jornada_conversacional",
+        "tags": [
+          "figma",
+          "jornada",
+          "peer-nomination",
+          "rh",
+          "avaliação",
+          "engajamento"
+        ],
+        "visibilidade": "publico",
+        "nivel_confidencialidade": "cliente",
+        "status": "ativo",
+        "owner": "",
+        "validacoes_backend": [
+          {
+            "Validação": "Usuário já fez a nomeação?"
+          },
+          {
+            "Validação": "Usuário já fez a nomeação para esse par?"
+          }
+        ],
+        "tratamento_excecoes": [
+          "Se o usuário já nomeou a pessoa, ele é direcionado para indicar outra pessoa.",
+          "Se o usuário já nomeou o par específico, ele é direcionado para indicar outra pessoa.",
+          "Se o nome da pessoa indicada não for confirmado, o fluxo retorna para a etapa de solicitação do nome.",
+          "Se o motivo da indicação não for confirmado, o fluxo retorna para a etapa de solicitação do motivo."
+        ],
+        "trackings_tags": [
+          {
+            "Tracking": "peer_nomination_start"
+          },
+          {
+            "Tracking": "peer_nomination_success"
+          }
+        ],
+        "transicoes_flows": []
+      }
+    },
+    {
+      "id": "t-peer-nomination",
+      "label": "#peer-nomination",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-rh",
+      "label": "#rh",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-avaliação",
+      "label": "#avaliação",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-engajamento",
+      "label": "#engajamento",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "20260525-weekly-interno",
+      "target": "p-rafael.barreto@blip.ai"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "p-vania.rodenas@blip.ai"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "p-euleno.sousa@blip.ai"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "p-joao.figueiredo@blip.ai"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "a-cs"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "a-dados"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "a-engenharia"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "a-ops"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "r-weekly"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "t-genius"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "t-arquitetura"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "t-gcp"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "t-mvp"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "t-roadmap"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "t-engenharia"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "t-dados"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "t-rag"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "t-blipdocs"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "t-llm"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "t-vectorsearch"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "t-embedding"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "t-produtividade"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "t-planejamento"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "p-rafael.barreto@blip.ai"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "p-vania.rodenas@blip.ai"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "p-euleno.sousa@blip.ai"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "p-luis.motta@blip.ai"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "p-joao.figueiredo@blip.ai"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "a-engenharia"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "a-ops"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "a-dados"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "a-cs"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "r-weekly"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-mvp"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-googledrive"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-gemini"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-arquitetura"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-bancovetorial"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-tokens"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-governanca"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-gcp"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-azuredevops"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-slack"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-ia"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-llm"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-rag"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-qa"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-insightagents"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-frontend"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-backend"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-autenticacao"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-documentacao"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "t-planejamento"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "p-rafael.barreto@blip.ai"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "p-vania.rodenas@blip.ai"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "p-euleno.sousa@blip.ai"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "p-luis.motta@blip.ai"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "p-joao.figueiredo@blip.ai"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "a-cs"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "a-engenharia"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "a-ops"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "r-weekly"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "t-infraestrutura"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "t-arquitetura"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "t-mvp"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "t-googledrive"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "t-ia"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "t-python"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "t-api"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "t-backend"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "t-frontend"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "t-poc"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "t-antigraft"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "t-miro"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "t-rag"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "t-gemini"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "t-professionalservices"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "t-designconversacional"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "t-delivery"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "cli-ginius"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-marcio@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-lari@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-rafael.barreto@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-eduardo@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-vania.rodenas@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-euleno.sousa@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-daniel.alves@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-luis.motta@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-joao.figueiredo@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-bia@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "a-ops"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "a-engenharia"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "a-dados"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "r-weekly"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-ginius"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-mvp"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-roadmap"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-googlecloudplatform"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-gcp"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-terraform"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-ingestaodedados"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-googledrive"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-airflow"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-cloudrun"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-bigquery"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-googlecloudstorage"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-rag"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-servicedesign"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-figma"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-backend"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-frontend"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-infraestrutura"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-monitoramento"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-dataplex"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-databricks"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-vpn"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "t-blipinternal"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "p-rafael.barreto@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "p-vania.rodenas@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "p-euleno.sousa@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "p-daniel.alves@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "p-marcio.curvello@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "p-luis.motta@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "p-joao.figueiredo@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "a-engenharia"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "a-ops"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "a-dados"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "r-weekly"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "t-googledrive"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "t-mvp"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "t-frontend"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "t-backend"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "t-metadados"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "t-ingestao"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "t-cronograma"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "t-golive"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "t-figma"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "t-gemini"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "t-mcp"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-rafael.barreto@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-bella.trindade@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-vania.rodenas@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-euleno.sousa@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-daniel.alves@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-marcio.curvello@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-luis.motta@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-joao.figueiredo@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "a-engenharia"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "a-ops"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "a-dados"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "a-cs"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "r-weekly"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "t-infraestrutura"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "t-governancadecustos"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "t-mvp1"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "t-googlecloudplatform"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "t-bigquery"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "t-inteligenciaartificial"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "t-metadados"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "t-servicedesign"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "t-testesa/b"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "t-api"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "t-gemini"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-rafael.barreto@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-bella.trindade@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-vania.rodenas@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-euleno.sousa@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-daniel.alves@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-marcio.curvello@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-luis.motta@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-joao.figueiredo@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "a-engenharia"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "a-dados"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "a-ops"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "r-weekly"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "t-backend"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "t-frontend"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "t-ia"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "t-metadados"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "t-classificacao"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "t-python"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "t-googledrive"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "t-figma"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "t-conectores"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "t-cronograma"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "t-desenvolvimento"
+    },
+    {
+      "source": "20240625-figma-claro-tv",
+      "target": "cli-Claro TV"
+    },
+    {
+      "source": "20240625-figma-claro-tv",
+      "target": "a-dc"
+    },
+    {
+      "source": "20240625-figma-claro-tv",
+      "target": "t-figma"
+    },
+    {
+      "source": "20240625-figma-claro-tv",
+      "target": "t-jornada"
+    },
+    {
+      "source": "20240625-figma-claro-tv",
+      "target": "t-suporte"
+    },
+    {
+      "source": "20240625-figma-claro-tv",
+      "target": "t-claro-tv"
+    },
+    {
+      "source": "20240625-figma-claro-tv",
+      "target": "t-telecom"
+    },
+    {
+      "source": "20240625-figma-claro-tv",
+      "target": "t-atendimento"
+    },
+    {
+      "source": "20240730-figma-netempresas",
+      "target": "cli-net-e-empresas"
+    },
+    {
+      "source": "20240730-figma-netempresas",
+      "target": "a-dc"
+    },
+    {
+      "source": "20240730-figma-netempresas",
+      "target": "t-figma"
+    },
+    {
+      "source": "20240730-figma-netempresas",
+      "target": "t-jornada"
+    },
+    {
+      "source": "20240730-figma-netempresas",
+      "target": "t-menu"
+    },
+    {
+      "source": "20240730-figma-netempresas",
+      "target": "t-suporte"
+    },
+    {
+      "source": "20240730-figma-netempresas",
+      "target": "t-net"
+    },
+    {
+      "source": "20240730-figma-netempresas",
+      "target": "t-empresas"
+    },
+    {
+      "source": "20240730-figma-netempresas",
+      "target": "t-telecom"
+    },
+    {
+      "source": "20240730-figma-interno",
+      "target": "a-dc"
+    },
+    {
+      "source": "20240730-figma-interno",
+      "target": "t-figma"
+    },
+    {
+      "source": "20240730-figma-interno",
+      "target": "t-jornada"
+    },
+    {
+      "source": "20240730-figma-interno",
+      "target": "t-peer-nomination"
+    },
+    {
+      "source": "20240730-figma-interno",
+      "target": "t-rh"
+    },
+    {
+      "source": "20240730-figma-interno",
+      "target": "t-avaliação"
+    },
+    {
+      "source": "20240730-figma-interno",
+      "target": "t-engajamento"
+    }
+  ],
+  "meta": {
+    "gerado_em": "2026-06-25T20:00:03.660923",
+    "usuario": "willer.alberto@blip.ai",
+    "total_nodes": 109,
+    "total_edges": 224,
+    "breakdown": {
+      "reunion": 7,
+      "person": 14,
+      "area": 5,
+      "tag": 77,
+      "client": 3,
+      "figma": 3
+    }
+  }
+}
