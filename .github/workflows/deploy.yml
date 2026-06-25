@@ -1,0 +1,40 @@
+name: Deploy Genius PS
+ 
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+ 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+ 
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+ 
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+ 
+      - name: Injetar chave do Gemini no HTML
+        env:
+          GEMINI_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          sed -i "s/COLE_SUA_CHAVE_AQUI/${GEMINI_KEY}/g" genius_ps_completo.html
+ 
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v4
+ 
+      - name: Empacotar arquivos para o Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+ 
+      - name: Publicar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
