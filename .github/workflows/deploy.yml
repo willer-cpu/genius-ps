@@ -1,40 +1,53 @@
 name: Deploy Genius PS
- 
+
 on:
   push:
     branches: [main]
   workflow_dispatch:
- 
+
 permissions:
   contents: read
   pages: write
   id-token: write
- 
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
- 
+
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v4
- 
+
       - name: Injetar chave do Gemini no HTML
         env:
           GEMINI_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          sed -i "s/COLE_SUA_CHAVE_AQUI/${GEMINI_KEY}/g" genius_ps_completo.html
- 
+          python3 -c "
+          import os, sys
+          key = os.environ.get('GEMINI_KEY', '').strip()
+          if not key:
+            print('ERRO: secret GEMINI_API_KEY esta vazio ou nao encontrado')
+            sys.exit(1)
+          html = open('genius_ps_completo.html', encoding='utf-8').read()
+          if 'COLE_SUA_CHAVE_AQUI' not in html:
+            print('AVISO: placeholder nao encontrado — verifique o HTML')
+          else:
+            html = html.replace('COLE_SUA_CHAVE_AQUI', key)
+            open('genius_ps_completo.html', 'w', encoding='utf-8').write(html)
+            print('OK: chave injetada com sucesso')
+          "
+
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v4
- 
-      - name: Empacotar arquivos para o Pages
+
+      - name: Empacotar arquivos para deploy
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
- 
+
       - name: Publicar no GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
