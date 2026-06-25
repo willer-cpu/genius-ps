@@ -1,4 +1,5 @@
-- name: Injetar chave do Gemini no HTML
+YAML
+      - name: Injetar chave do Gemini no HTML
         env:
           GEMINI_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
