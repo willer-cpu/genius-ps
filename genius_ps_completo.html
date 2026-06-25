@@ -689,7 +689,7 @@ function addThinking(){
 }
 
 async function callGemini(msg){
-  if(GEMINI_API_KEY==='COLE_SUA_CHAVE_AQUI') return '⚠️ Configure a chave do Google AI Studio no topo do arquivo HTML (linha GEMINI_API_KEY).';
+  if(GEMINI_API_KEY==='COLE_SUA_' + 'CHAVE_AQUI') return '⚠️ Configure a chave do Google AI Studio no topo do arquivo HTML (linha GEMINI_API_KEY).';
   const prefix=nodeCtx?`[Contexto ativo: nó "${nodeCtx.label}" (ID: ${nodeCtx.id})]\n\n`:'';
   const msgs=[...chatHist,{role:'user',parts:[{text:prefix+msg}]}];
   const body={contents:msgs,systemInstruction:{parts:[{text:SYS.replace('{KB}',kb||'[não carregada]')}]},generationConfig:{temperature:0.1,maxOutputTokens:800}};
