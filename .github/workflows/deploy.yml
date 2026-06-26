@@ -18,7 +18,15 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Gerar config.js com a chave do Gemini
+        env:
+          GEMINI_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          echo "window.GENIUS_GEMINI_KEY='${GEMINI_KEY}';" > config.js
+          echo "✅ config.js gerado com sucesso"
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v4
