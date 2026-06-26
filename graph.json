@@ -1,6 +1,2030 @@
 {
   "nodes": [
     {
+      "id": "20260507-alinhamento-interno",
+      "label": "Alinhamento estratégico sobre o projeto ",
+      "type": "reunion",
+      "r": 11,
+      "meta": {
+        "data": "2026-05-07",
+        "resumo": "Reunião de alinhamento estratégico sobre o projeto Service 2.0, que redefine papéis e estrutura de áreas, e os resultados do NPS de Professional Service, que atingiu 56, com foco em eficiência operacional e valor ao cliente.",
+        "tipo_documento": "reuniao_operacional",
+        "tags": [
+          "service2.0",
+          "nps",
+          "professionalservice",
+          "reestruturacao",
+          "delivery",
+          "produto",
+          "consultingservices",
+          "valuemanagement",
+          "dados",
+          "bizops",
+          "estiling",
+          "designconversacional",
+          "techleads",
+          "ia",
+          "automacao",
+          "peoplesurvey",
+          "racatom"
+        ],
+        "visibilidade": "publico",
+        "nivel_confidencialidade": "interno",
+        "status": "ativo",
+        "owner": "rafael.barreto@blip.ai",
+        "decisoes_tomadas": [
+          "O projeto Service 2.0 redefine papéis de Delivery e Produto para consultores estratégicos.",
+          "A estrutura de áreas foi reorganizada para centralizar a gestão e aumentar a eficiência operacional.",
+          "Consulting Services e Value Management substituíram antigas nomenclaturas com foco consultivo.",
+          "Equipes de Dados ganharam autonomia para medir resultados baseados em valor entregue ao cliente.",
+          "Foi decidido que a People Survey ocorrerá 4 vezes em 2026 para monitorar reconhecimentos e carreiras.",
+          "A área de Service Design foi rebatizada para Consulting Services.",
+          "A área de Quality Assurance foi rebatizada para Value Management.",
+          "Estruturas de Data Strategy e Data Engineering foram oficializadas como apartadas para autonomia de decisão.",
+          "Criação da camada de Tech Leads no capítulo de Design Conversacional para descentralizar a gestão e horizontalizar o conhecimento."
+        ],
+        "action_items": [
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Enviar foto mais atualizada para uso na apresentação.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "A equipe",
+            "acao": "Trazer feedback prático sobre atuação dos Tech Leads.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "O grupo",
+            "acao": "Entrar no Teatrix para entender resultados individuais e analisar o ambiente da área.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "O grupo",
+            "acao": "Conversar com o time para aprofundar nas descobertas e evolução dos resultados.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "juliana.martins@blip.ai",
+            "acao": "Apresentar a estrutura oficial da área de engenharia na próxima reunião Strategy.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "O grupo",
+            "acao": "Compartilhar os pontos positivos e fortalezas da pesquisa People Survey com os times.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "O grupo",
+            "acao": "Ajudar a sinalizar as pessoas fundamentais do time para participar do racatom de construção de agentes.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "O grupo",
+            "acao": "Compartilhar o conhecimento adquirido durante a imersão Estúdio na BIP de São Paulo.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "O grupo",
+            "acao": "Avaliar e desenvolver iniciativas de melhoria interna fundamentais dentro de cada time.",
+            "prazo": "indefinido"
+          }
+        ],
+        "proximos_passos": [
+          "Apresentar a estrutura oficial da área de engenharia na próxima reunião Strategy.",
+          "Realizar a People Survey 4 vezes em 2026.",
+          "Organizar racatom de construção de agentes.",
+          "Compartilhar conhecimento da imersão Estúdio na BIP de São Paulo."
+        ],
+        "mencoes_produtos_blip": [
+          "Flows",
+          "Builder",
+          "Agents"
+        ]
+      }
+    },
+    {
+      "id": "p-felipe.ventorim@blip.ai",
+      "label": "Felipe Ventorim",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-julie.laurent@blip.ai",
+      "label": "Julie Laurent",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-larissa.jesus@blip.ai",
+      "label": "Larissa Jesus",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-marianne.diefenthaler@blip.ai",
+      "label": "Marianne Diefenthaler",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-moacir.junior@blip.ai",
+      "label": "Moacir Junior",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-marcelo.toro@blip.ai",
+      "label": "Marcelo Toro",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-danielle.sodre@blip.ai",
+      "label": "Danielle Sodre",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-anderson.fonseca@blip.ai",
+      "label": "Anderson Fonseca",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-ana.segato@blip.ai",
+      "label": "Ana Segato",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-luiz.souza@blip.ai",
+      "label": "Luiz Souza",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-renato.mendes@blip.ai",
+      "label": "Renato Mendes",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-matias.neto@blip.ai",
+      "label": "Matias Neto",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-leticia.guerrero@blip.ai",
+      "label": "Leticia Guerrero",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-thiago.bartolozzi@blip.ai",
+      "label": "Thiago Bartolozzi",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-poliana.pires@blip.ai",
+      "label": "Poliana Pires",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-leandro.lima@blip.ai",
+      "label": "Leandro Lima",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-ishvann.larsen@blip.ai",
+      "label": "Ishvann Larsen",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-francielle.rodrigues@blip.ai",
+      "label": "Francielle Rodrigues",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-fernando.silva@blip.ai",
+      "label": "Fernando Silva",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-juliana.martins@blip.ai",
+      "label": "Juliana Martins",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-grasiele.brustolom@blip.ai",
+      "label": "Grasiele Brustolom",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-ana.morais@blip.ai",
+      "label": "Ana Morais",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-matheus.fernandes@blip.ai",
+      "label": "Matheus Fernandes",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-matheus.barcelos@blip.ai",
+      "label": "Matheus Barcelos",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-jaqueline.amorim@blip.ai",
+      "label": "Jaqueline Amorim",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-willer.batista@blip.ai",
+      "label": "Willer Batista",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-maria.gonzalez@blip.ai",
+      "label": "Maria Gonzalez",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-william.colen@blip.ai",
+      "label": "William Colen",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-lohanna.almeida@blip.ai",
+      "label": "Lohanna Almeida",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-arthur.batista@blip.ai",
+      "label": "Arthur Batista",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-maria.varela@blip.ai",
+      "label": "Maria Varela",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-leandro.barreto@blip.ai",
+      "label": "Leandro Barreto",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-rainer.resende@blip.ai",
+      "label": "Rainer Resende",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-thais.oliveira@blip.ai",
+      "label": "Thais Oliveira",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-fernando.palumbo@blip.ai",
+      "label": "Fernando Palumbo",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-caio.lima@blip.ai",
+      "label": "Caio Lima",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-ricardo.borges@blip.ai",
+      "label": "Ricardo Borges",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-lorenna.farias@blip.ai",
+      "label": "Lorenna Farias",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-patricia.ferreira@blip.ai",
+      "label": "Patricia Ferreira",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-anna.machalous@blip.ai",
+      "label": "Anna Machalous",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-matheus.lima@blip.ai",
+      "label": "Matheus Lima",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-diego.quintao@blip.ai",
+      "label": "Diego Quintao",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-aline.reis@blip.ai",
+      "label": "Aline Reis",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-juliana.maranhao@blip.ai",
+      "label": "Juliana Maranhao",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-marcelo.silva@blip.ai",
+      "label": "Marcelo Silva",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-pedro.meirelles@blip.ai",
+      "label": "Pedro Meirelles",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-ana.castro@blip.ai",
+      "label": "Ana Castro",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-thais.arizo@blip.ai",
+      "label": "Thais Arizo",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-marcio.curvello@blip.ai",
+      "label": "Marcio Curvello",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-andre.dutra@blip.ai",
+      "label": "Andre Dutra",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-estanislau.junior@blip.ai",
+      "label": "Estanislau Junior",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-norman.sabino@blip.ai",
+      "label": "Norman Sabino",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-caroline.guilherme@blip.ai",
+      "label": "Caroline Guilherme",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-euleno.sousa@blip.ai",
+      "label": "Euleno Sousa",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-camila.silva@blip.ai",
+      "label": "Camila Silva",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-vania.rodenas@blip.ai",
+      "label": "Vania Rodenas",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-christyan.pires@blip.ai",
+      "label": "Christyan Pires",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-andre.goncalves@blip.ai",
+      "label": "Andre Goncalves",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-joao.barros@blip.ai",
+      "label": "Joao Barros",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-cristiane.arakaki@blip.ai",
+      "label": "Cristiane Arakaki",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-anivaldo.junior@blip.ai",
+      "label": "Anivaldo Junior",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-helena.bello@blip.ai",
+      "label": "Helena Bello",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-milton.junior@blip.ai",
+      "label": "Milton Junior",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-ana.mesquita@blip.ai",
+      "label": "Ana Mesquita",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-silvio.santos@blip.ai",
+      "label": "Silvio Santos",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-hiran.martins@blip.ai",
+      "label": "Hiran Martins",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-beatriz.merino@blip.ai",
+      "label": "Beatriz Merino",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-airton.junior@blip.ai",
+      "label": "Airton Junior",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-renato.moraes@blip.ai",
+      "label": "Renato Moraes",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-karina.carneiro@blip.ai",
+      "label": "Karina Carneiro",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-lilian.silva@blip.ai",
+      "label": "Lilian Silva",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-daniela.araujo@blip.ai",
+      "label": "Daniela Araujo",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-julia.franco@blip.ai",
+      "label": "Julia Franco",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-paulo.mendonca@blip.ai",
+      "label": "Paulo Mendonca",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-isabella.monteiro@blip.ai",
+      "label": "Isabella Monteiro",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-joao.figueiredo@blip.ai",
+      "label": "Joao Figueiredo",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-ilse.rosa@blip.ai",
+      "label": "Ilse Rosa",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-andre.fernandes@blip.ai",
+      "label": "Andre Fernandes",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-michele.santos@blip.ai",
+      "label": "Michele Santos",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-leonardo.russi@blip.ai",
+      "label": "Leonardo Russi",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-paulo.junior@blip.ai",
+      "label": "Paulo Junior",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-guilherme.amuy@blip.ai",
+      "label": "Guilherme Amuy",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-thiago.bebiano@blip.ai",
+      "label": "Thiago Bebiano",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-rodrigo.battella@blip.ai",
+      "label": "Rodrigo Battella",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-mandy.cerqueira@blip.ai",
+      "label": "Mandy Cerqueira",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-giovana.pereira@blip.ai",
+      "label": "Giovana Pereira",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-sergio.passos@blip.ai",
+      "label": "Sergio Passos",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-matheus.campos@blip.ai",
+      "label": "Matheus Campos",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-claudia.laurente@blip.ai",
+      "label": "Claudia Laurente",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-jacob.suarez@blip.ai",
+      "label": "Jacob Suarez",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-marcus.bastos@blip.ai",
+      "label": "Marcus Bastos",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-raphael.lelis@blip.ai",
+      "label": "Raphael Lelis",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-matheus.dorst@blip.ai",
+      "label": "Matheus Dorst",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-leonardo.nakasima@blip.ai",
+      "label": "Leonardo Nakasima",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-lucas.geoffroy@blip.ai",
+      "label": "Lucas Geoffroy",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-aline.gomes@blip.ai",
+      "label": "Aline Gomes",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-ellison.guimaraes@blip.ai",
+      "label": "Ellison Guimaraes",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-ana.fermino@blip.ai",
+      "label": "Ana Fermino",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-vitor.vieira@blip.ai",
+      "label": "Vitor Vieira",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-rafael.araujo@blip.ai",
+      "label": "Rafael Araujo",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-lorena.miguel@blip.ai",
+      "label": "Lorena Miguel",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-camilla.mendes@blip.ai",
+      "label": "Camilla Mendes",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-edu.guerreiro@blip.ai",
+      "label": "Edu Guerreiro",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-felipe.andrade@blip.ai",
+      "label": "Felipe Andrade",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-junio.oliveira@blip.ai",
+      "label": "Junio Oliveira",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-carolina.raitz@blip.ai",
+      "label": "Carolina Raitz",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-arnaldo.macedo@blip.ai",
+      "label": "Arnaldo Macedo",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-adriane.gomes@blip.ai",
+      "label": "Adriane Gomes",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-leonardo.goncalves@blip.ai",
+      "label": "Leonardo Goncalves",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-itzel.cabrera@blip.ai",
+      "label": "Itzel Cabrera",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-vinicius.bandeira@blip.ai",
+      "label": "Vinicius Bandeira",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-joao.corityac@blip.ai",
+      "label": "Joao Corityac",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-maria.cisneros@blip.ai",
+      "label": "Maria Cisneros",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-maria.alcantara@blip.ai",
+      "label": "Maria Alcantara",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-andreas.rieck@blip.ai",
+      "label": "Andreas Rieck",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-irina.serrano@blip.ai",
+      "label": "Irina Serrano",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-luis.santos@blip.ai",
+      "label": "Luis Santos",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-rafael.barreto@blip.ai",
+      "label": "Rafael Barreto",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-leticia.rezende@blip.ai",
+      "label": "Leticia Rezende",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-felipe.bento@blip.ai",
+      "label": "Felipe Bento",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-matheus.alves@blip.ai",
+      "label": "Matheus Alves",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-cristina.jover@blip.ai",
+      "label": "Cristina Jover",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "a-ops",
+      "label": "OPS",
+      "type": "area",
+      "r": 7,
+      "meta": {}
+    },
+    {
+      "id": "a-cs",
+      "label": "CS",
+      "type": "area",
+      "r": 7,
+      "meta": {}
+    },
+    {
+      "id": "a-dados",
+      "label": "DADOS",
+      "type": "area",
+      "r": 7,
+      "meta": {}
+    },
+    {
+      "id": "a-engenharia",
+      "label": "ENGENHARIA",
+      "type": "area",
+      "r": 7,
+      "meta": {}
+    },
+    {
+      "id": "r-alinhamento",
+      "label": "alinhamento",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-service2.0",
+      "label": "#service2.0",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-nps",
+      "label": "#nps",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-professionalservice",
+      "label": "#professionalservice",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-reestruturacao",
+      "label": "#reestruturacao",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-delivery",
+      "label": "#delivery",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-produto",
+      "label": "#produto",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-consultingservices",
+      "label": "#consultingservices",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-valuemanagement",
+      "label": "#valuemanagement",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-dados",
+      "label": "#dados",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-bizops",
+      "label": "#bizops",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-estiling",
+      "label": "#estiling",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-designconversacional",
+      "label": "#designconversacional",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-techleads",
+      "label": "#techleads",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-ia",
+      "label": "#ia",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-automacao",
+      "label": "#automacao",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-peoplesurvey",
+      "label": "#peoplesurvey",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-racatom",
+      "label": "#racatom",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "20260126-alinhamento-interno",
+      "label": "Alinhamento e definição da esteira de de",
+      "type": "reunion",
+      "r": 11,
+      "meta": {
+        "data": "2026-01-26",
+        "resumo": "A reunião discutiu o início do piloto da esteira de PS para Berlim e Dallas, unificando engenharia, DC e dados. Foram definidos ritos como descompressão semanal obrigatória, estrutura de refinamento e planejamento por Squad, FUP e Dailies. Também se decidiu pela inclusão da medição de complexidade, otimizações no Azure DevOps e o adiamento do início da esteira para 23 de fevereiro.",
+        "tipo_documento": "reuniao_operacional",
+        "tags": [
+          "esteiradedelivery",
+          "ps",
+          "processos",
+          "ritos",
+          "azuredevops",
+          "complexidade",
+          "papeiseresponsabilidades",
+          "dataforservice",
+          "engenharia",
+          "dc",
+          "dados"
+        ],
+        "visibilidade": "publico",
+        "nivel_confidencialidade": "interno",
+        "status": "ativo",
+        "owner": "rafael.barreto@blip.ai",
+        "decisoes_tomadas": [
+          "Início do piloto da esteira de PS para Berlim e Dallas, englobando engenharia, DC e dados em um processo unificado.",
+          "O rito de descompressão semanal foi definido como obrigatório.",
+          "A estrutura dos ritos de Refinamento e Planejamento foi definida separadamente por Squad.",
+          "Foi estabelecido o FUP obrigatório a cada dois dias.",
+          "Dailies diárias com as especialidades foram definidas como obrigatórias.",
+          "O Alinhamento da Esteira foi introduzido para verificar o funcionamento do processo e identificar bloqueios.",
+          "O Review Semanal, Descompressão semanal obrigatória e Retro foram introduzidos/mantidos.",
+          "Foi acordada a inclusão da medição de complexidade (Alta, Média, Baixa) para o card de entrega de valor.",
+          "Propostas de otimização do board no Azure DevOps foram feitas, incluindo o uso de sprint flexível e mudanças nas colunas do board camban.",
+          "O início da esteira foi adiado para 23 de fevereiro."
+        ],
+        "action_items": [
+          {
+            "responsavel": "rafael.barreto@blip.ai e andre.dutra@blip.ai",
+            "acao": "Detalhar no item dois do documento o que é o alinhamento da esteira para entender o processo.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "karina.carneiro@blip.ai e patricia.ferreira@blip.ai",
+            "acao": "Marcar um tempo para revisar o board do Data for service para criar visões padronizadas para PMs e Data FS.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "caio.lima@blip.ai",
+            "acao": "Conversar com Aline sobre a visão de sprint e trazer um feedback ao grupo.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai, andre.dutra@blip.ai, gustavo.santos@blip.ai e luis.motta@blip.ai",
+            "acao": "Organizar os treinamentos e orientações para os times até o carnaval, preparando o novo processo para começar no dia 23 de fevereiro.",
+            "prazo": "2026-02-20"
+          },
+          {
+            "responsavel": "fernando.palumbo@blip.ai",
+            "acao": "Reforçar a questão do papel e responsabilidade no material para ser adicionado.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "juliana.martins@blip.ai",
+            "acao": "Alterar a estrutura de engenharia no material, corrigindo a posição do sior em relação à Bela.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai, gustavo.santos@blip.ai e andre.dutra@blip.ai",
+            "acao": "Discutir a questão da métrica sobre a decisão de trabalhar em um board ou em boards separados.",
+            "prazo": "indefinido"
+          }
+        ],
+        "proximos_passos": [
+          "Detalhar o que é o alinhamento da esteira no documento.",
+          "Revisar o board do Data for service para padronizar visões.",
+          "Caio Lima alinhar com Aline sobre a visualização do board (kanban ou sprint).",
+          "Organizar treinamentos e orientações para os times até o Carnaval.",
+          "Início da esteira de delivery em PS em 23 de fevereiro.",
+          "Fernando Palumbo reforçar a documentação de papéis e responsabilidades para DC.",
+          "Juliana Martins ajustar a estrutura de engenharia no material.",
+          "Discutir a métrica sobre a decisão de trabalhar em um board ou em boards separados."
+        ],
+        "mencoes_produtos_blip": []
+      }
+    },
+    {
+      "id": "p-gustavo.santos@blip.ai",
+      "label": "Gustavo Santos",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-luis.motta@blip.ai",
+      "label": "Luis Motta",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "a-dc",
+      "label": "DC",
+      "type": "area",
+      "r": 7,
+      "meta": {}
+    },
+    {
+      "id": "t-esteiradedelivery",
+      "label": "#esteiradedelivery",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-ps",
+      "label": "#ps",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-processos",
+      "label": "#processos",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-ritos",
+      "label": "#ritos",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-azuredevops",
+      "label": "#azuredevops",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-complexidade",
+      "label": "#complexidade",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-papeiseresponsabilidades",
+      "label": "#papeiseresponsabilidades",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-dataforservice",
+      "label": "#dataforservice",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-engenharia",
+      "label": "#engenharia",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-dc",
+      "label": "#dc",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "20250925-review-ps-interno",
+      "label": "Reunião de estratégia e acompanhamento d",
+      "type": "reunion",
+      "r": 11,
+      "meta": {
+        "data": "2025-09-25",
+        "resumo": "A reunião de estratégia do Professional Services abordou o acompanhamento de métricas, projetos e resultados. Foram apresentados os resultados do CESAT Q3 2025 com 100% de satisfação geral, o programa de férias incentivadas para redução de custos, e a \"fórmula de sucesso\" do PS com crescimento de receita e margem, além de discussões sobre produtividade de clientes e implementação de IA.",
+        "tipo_documento": "reuniao_operacional",
+        "tags": [
+          "psstrategy",
+          "metricas",
+          "resultados",
+          "cesat",
+          "feriasincentivadas",
+          "produtividade",
+          "dados",
+          "ia",
+          "receita",
+          "margem",
+          "enps",
+          "clientfacing",
+          "planejamento",
+          "custos"
+        ],
+        "visibilidade": "publico",
+        "nivel_confidencialidade": "cliente",
+        "status": "ativo",
+        "owner": "edu.guerreiro@blip.ai",
+        "decisoes_tomadas": [
+          "A reunião iniciaria com a apresentação dos resultados do CESAT por Daniela Alves.",
+          "O programa de férias incentivadas seria abordado em seguida.",
+          "A Blip implementará um programa de férias incentivadas para reduzir custos e incentivar o descanso dos colaboradores.",
+          "Será criada uma planilha com a programação de férias de todos para que as lideranças possam planejar e identificar possíveis picos de ausência.",
+          "O controle de férias deve ser alinhado com os DMs para evitar que esquadrões inteiros saiam de férias simultaneamente."
+        ],
+        "action_items": [
+          {
+            "responsavel": "david.masson@blip.ai",
+            "acao": "Criar uma planilha com a programação de férias de todos, incluindo férias vencidas.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "liderancas.ps@blip.ai",
+            "acao": "Comunicar o programa de férias incentivadas e alinhar o controle de férias com os DMs.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "daniela.alves@blip.ai",
+            "acao": "Ajustar o formato das perguntas do CESAT para abordar a percepção do cliente sobre dados de produto sem impactar a nota de serviço.",
+            "prazo": "indefinido"
+          }
+        ],
+        "proximos_passos": [
+          "Fechamento do loop das entrevistas CESAT com relatórios e ações definidas.",
+          "Iniciar entrevistas CESAT com clientes STI.",
+          "Realizar novas entrevistas CESAT com os top 10 clientes em receita.",
+          "Planejamento detalhado das próximas entrevistas CESAT no início do mês.",
+          "Reunião agendada com o Banco Pan para discutir a implementação da IA da Blip.",
+          "Projeto com a Pismo pode gerar um aumento temporário na equipe.",
+          "Definições comerciais do projeto multiagent da Recovery estão sendo concluídas.",
+          "O novo dashboard de valor gerado para cada real gasto pelo cliente em Professional Services será disponibilizado no portal."
+        ],
+        "mencoes_produtos_blip": [
+          "Blip",
+          "Blip Chat",
+          "IA",
+          "Flows",
+          "Builder",
+          "Desk",
+          "Analytics"
+        ]
+      }
+    },
+    {
+      "id": "p-aline.guimaraes@blip.ai",
+      "label": "Aline Guimaraes",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-daniela.alves@blip.ai",
+      "label": "Daniela Alves",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-cesar.correia@blip.ai",
+      "label": "Cesar Correia",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-weslen.furtado@blip.ai",
+      "label": "Weslen Furtado",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-cintia.souza@blip.ai",
+      "label": "Cintia Souza",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-lucas.souza@blip.ai",
+      "label": "Lucas Souza",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-anderson.silva@blip.ai",
+      "label": "Anderson Silva",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-bruna.araujo@blip.ai",
+      "label": "Bruna Araujo",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-larissa.souza@blip.ai",
+      "label": "Larissa Souza",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-claudia.ippolito@blip.ai",
+      "label": "Claudia Ippolito",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-malu.alves@blip.ai",
+      "label": "Malu Alves",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-diobert.nascimento@blip.ai",
+      "label": "Diobert Nascimento",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-ana.zandavalle@blip.ai",
+      "label": "Ana Zandavalle",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-itatiana.carvalho@blip.ai",
+      "label": "Itatiana Carvalho",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-leticia.farias@blip.ai",
+      "label": "Leticia Farias",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-david.masson@blip.ai",
+      "label": "David Masson",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-marianne.diefenthäler@blip.ai",
+      "label": "Marianne Diefenthäler",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-tiago.evo@blip.ai",
+      "label": "Tiago Evo",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "a-diretoria",
+      "label": "DIRETORIA",
+      "type": "area",
+      "r": 7,
+      "meta": {}
+    },
+    {
+      "id": "r-review",
+      "label": "review",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-psstrategy",
+      "label": "#psstrategy",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-metricas",
+      "label": "#metricas",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-resultados",
+      "label": "#resultados",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-cesat",
+      "label": "#cesat",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-feriasincentivadas",
+      "label": "#feriasincentivadas",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-produtividade",
+      "label": "#produtividade",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-receita",
+      "label": "#receita",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-margem",
+      "label": "#margem",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-enps",
+      "label": "#enps",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-clientfacing",
+      "label": "#clientfacing",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-planejamento",
+      "label": "#planejamento",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-custos",
+      "label": "#custos",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "20251127-strategy-review-interno",
+      "label": "Reunião de acompanhamento estratégico de",
+      "type": "reunion",
+      "r": 11,
+      "meta": {
+        "data": "2025-11-27",
+        "resumo": "A reunião de estratégia de Professional Services revisou os resultados de 2025, com destaque para o atingimento das metas de receita e Gross Profit, e discutiu a necessidade de austeridade, o desempenho de clientes chave, a expansão no México e a criação de novas squads para impulsionar a receita de plataforma.",
+        "tipo_documento": "reuniao_operacional",
+        "tags": [
+          "professional_services",
+          "ps_strategy",
+          "metricas",
+          "receita",
+          "gross_profit",
+          "produtividade",
+          "clientes",
+          "churn",
+          "rcs",
+          "custom_channel",
+          "gpt",
+          "personal_seller",
+          "conversational_commerce",
+          "agent_factory",
+          "delivery_2.0",
+          "offsite",
+          "meta",
+          "cesat",
+          "mvo",
+          "blip_calls",
+          "blip_estudio",
+          "whatsapp",
+          "ia",
+          "pix_automatico",
+          "bancopan",
+          "c&a",
+          "ifood",
+          "nespresso",
+          "recovery",
+          "veloe",
+          "bmg",
+          "dell",
+          "claro",
+          "mercadolivre",
+          "smartfit",
+          "mercadopago",
+          "itau",
+          "boostmobile",
+          "grupovelas",
+          "ford",
+          "nomadliving",
+          "qualitas",
+          "quesc",
+          "safra",
+          "leroymerlin",
+          "bradesco"
+        ],
+        "visibilidade": "publico",
+        "nivel_confidencialidade": "interno",
+        "status": "ativo",
+        "owner": "edu.guerreiro@blip.ai",
+        "decisoes_tomadas": [
+          "A Blip deve manter austeridade em dezembro para atingir a Regra dos 40.",
+          "Novas squads Tókio e London foram criadas para impulsionar a receita de plataforma e gerenciar o churn.",
+          "O tema \"delivery 2.0\" será retomado após o offsite de Professional Service.",
+          "Hiran Pinheiro Martins foi apresentado como o novo delivery manager de Professional Service."
+        ],
+        "action_items": [
+          {
+            "responsavel": "edu.guerreiro@blip.ai",
+            "acao": "Conversar com Guilherme Amuy sobre as definições dos recursos para a agent factory.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "equipe.blip@blip.ai",
+            "acao": "Manter austeridade em dezembro para ajudar a empresa a atingir a Regra dos 40.",
+            "prazo": "2025-12-31"
+          },
+          {
+            "responsavel": "equipe.ps.mexico@blip.ai",
+            "acao": "Buscar fechar projetos com Grupo Velas, Ford e Nomad Living, além de um projeto para o Mercado Pago Chile.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "equipe.ps@blip.ai",
+            "acao": "Monitorar o risco em iFood Restaurantes devido à internalização do Customer Service e investimento em IA e WhatsApp.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "equipe.ps@blip.ai",
+            "acao": "Trabalhar em propostas para Claro Empresas e refaturação.",
+            "prazo": "inicio do proximo ano"
+          },
+          {
+            "responsavel": "equipe.ps@blip.ai",
+            "acao": "Testar e subir novas versões de templates devido à recategorização de templates pela Meta.",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "andre.fernandes@blip.ai",
+            "acao": "Refazer a enquete sobre o uso do Estúdio quando o uso estiver universalizado.",
+            "prazo": "indefinido"
+          }
+        ],
+        "proximos_passos": [
+          "O offsite de Professional Service ocorrerá em duas semanas.",
+          "A retomada do \"delivery 2.0\" e ajustes no formato de trabalho para 2026 ocorrerão após o offsite.",
+          "O rollout do projeto personal seller da C&A está previsto para 4 de dezembro.",
+          "O Banco PAN está próximo da próxima fase do projeto GPT sem árvore.",
+          "A Recovery está implementando o Pix automático.",
+          "O iFood mantém drivers e outras oportunidades em 2026, como iFood Benefícios e iFood Pay.",
+          "A Dell focará no fechamento do roadmap para o ano fiscal 27, com potencial de mais receita de serviços.",
+          "Propostas para Claro Empresas e refaturação têm chances de virar no início do próximo ano.",
+          "Um piloto de Blip Calls para Itaú/Itaú BBA está planejado.",
+          "A replicação de fluxos para SmartFit LATAM (Peru) está em andamento."
+        ],
+        "mencoes_produtos_blip": [
+          "Blip Desk",
+          "Blip Calls",
+          "Blip Estúdio",
+          "Custom Channel",
+          "Go Personal",
+          "Sales Agent",
+          "Plataforma Blip",
+          "Builder"
+        ]
+      }
+    },
+    {
+      "id": "p-pedro.frade@blip.ai",
+      "label": "Pedro Frade",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-ilse.delarosa@blip.ai",
+      "label": "Ilse Delarosa",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-paulo.goncalves@blip.ai",
+      "label": "Paulo Goncalves",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "t-professional_services",
+      "label": "#professional_services",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-ps_strategy",
+      "label": "#ps_strategy",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-gross_profit",
+      "label": "#gross_profit",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-clientes",
+      "label": "#clientes",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-churn",
+      "label": "#churn",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-rcs",
+      "label": "#rcs",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-custom_channel",
+      "label": "#custom_channel",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-gpt",
+      "label": "#gpt",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-personal_seller",
+      "label": "#personal_seller",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-conversational_commerce",
+      "label": "#conversational_commerce",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-agent_factory",
+      "label": "#agent_factory",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-delivery_2.0",
+      "label": "#delivery_2.0",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-offsite",
+      "label": "#offsite",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-meta",
+      "label": "#meta",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-mvo",
+      "label": "#mvo",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-blip_calls",
+      "label": "#blip_calls",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-blip_estudio",
+      "label": "#blip_estudio",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-whatsapp",
+      "label": "#whatsapp",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-pix_automatico",
+      "label": "#pix_automatico",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-bancopan",
+      "label": "#bancopan",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-c&a",
+      "label": "#c&a",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-ifood",
+      "label": "#ifood",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-nespresso",
+      "label": "#nespresso",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-recovery",
+      "label": "#recovery",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-veloe",
+      "label": "#veloe",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-bmg",
+      "label": "#bmg",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-dell",
+      "label": "#dell",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-claro",
+      "label": "#claro",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-mercadolivre",
+      "label": "#mercadolivre",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-smartfit",
+      "label": "#smartfit",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-mercadopago",
+      "label": "#mercadopago",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-itau",
+      "label": "#itau",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-boostmobile",
+      "label": "#boostmobile",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-grupovelas",
+      "label": "#grupovelas",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-ford",
+      "label": "#ford",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-nomadliving",
+      "label": "#nomadliving",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-qualitas",
+      "label": "#qualitas",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-quesc",
+      "label": "#quesc",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-safra",
+      "label": "#safra",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-leroymerlin",
+      "label": "#leroymerlin",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-bradesco",
+      "label": "#bradesco",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
       "id": "20260525-weekly-interno",
       "label": "Reunião semanal para definir arquitetura",
       "type": "reunion",
@@ -88,76 +2112,6 @@
       }
     },
     {
-      "id": "p-rafael.barreto@blip.ai",
-      "label": "Rafael Barreto",
-      "type": "person",
-      "r": 9,
-      "meta": {}
-    },
-    {
-      "id": "p-joao.figueiredo@blip.ai",
-      "label": "Joao Figueiredo",
-      "type": "person",
-      "r": 9,
-      "meta": {}
-    },
-    {
-      "id": "p-euleno.sousa@blip.ai",
-      "label": "Euleno Sousa",
-      "type": "person",
-      "r": 9,
-      "meta": {}
-    },
-    {
-      "id": "p-vania.rodenas@blip.ai",
-      "label": "Vania Rodenas",
-      "type": "person",
-      "r": 9,
-      "meta": {}
-    },
-    {
-      "id": "p-vinicius.bandeira@blip.ai",
-      "label": "Vinicius Bandeira",
-      "type": "person",
-      "r": 9,
-      "meta": {}
-    },
-    {
-      "id": "p-willer.batista@blip.ai",
-      "label": "Willer Batista",
-      "type": "person",
-      "r": 9,
-      "meta": {}
-    },
-    {
-      "id": "a-cs",
-      "label": "CS",
-      "type": "area",
-      "r": 7,
-      "meta": {}
-    },
-    {
-      "id": "a-dados",
-      "label": "DADOS",
-      "type": "area",
-      "r": 7,
-      "meta": {}
-    },
-    {
-      "id": "a-engenharia",
-      "label": "ENGENHARIA",
-      "type": "area",
-      "r": 7,
-      "meta": {}
-    },
-    {
-      "id": "a-ops",
-      "label": "OPS",
-      "type": "area",
-      "r": 7,
-      "meta": {}
-    },
-    {
       "id": "r-weekly",
       "label": "weekly",
       "type": "tag",
@@ -200,20 +2154,6 @@
       "meta": {}
     },
     {
-      "id": "t-engenharia",
-      "label": "#engenharia",
-      "type": "tag",
-      "r": 5,
-      "meta": {}
-    },
-    {
-      "id": "t-dados",
-      "label": "#dados",
-      "type": "tag",
-      "r": 5,
-      "meta": {}
-    },
-    {
       "id": "t-rag",
       "label": "#rag",
       "type": "tag",
@@ -244,20 +2184,6 @@
     {
       "id": "t-embedding",
       "label": "#embedding",
-      "type": "tag",
-      "r": 5,
-      "meta": {}
-    },
-    {
-      "id": "t-produtividade",
-      "label": "#produtividade",
-      "type": "tag",
-      "r": 5,
-      "meta": {}
-    },
-    {
-      "id": "t-planejamento",
-      "label": "#planejamento",
       "type": "tag",
       "r": 5,
       "meta": {}
@@ -365,13 +2291,6 @@
       }
     },
     {
-      "id": "p-luis.motta@blip.ai",
-      "label": "Luis Motta",
-      "type": "person",
-      "r": 9,
-      "meta": {}
-    },
-    {
       "id": "t-googledrive",
       "label": "#googledrive",
       "type": "tag",
@@ -407,22 +2326,8 @@
       "meta": {}
     },
     {
-      "id": "t-azuredevops",
-      "label": "#azuredevops",
-      "type": "tag",
-      "r": 5,
-      "meta": {}
-    },
-    {
       "id": "t-slack",
       "label": "#slack",
-      "type": "tag",
-      "r": 5,
-      "meta": {}
-    },
-    {
-      "id": "t-ia",
-      "label": "#ia",
       "type": "tag",
       "r": 5,
       "meta": {}
@@ -623,20 +2528,6 @@
       "meta": {}
     },
     {
-      "id": "t-designconversacional",
-      "label": "#designconversacional",
-      "type": "tag",
-      "r": 5,
-      "meta": {}
-    },
-    {
-      "id": "t-delivery",
-      "label": "#delivery",
-      "type": "tag",
-      "r": 5,
-      "meta": {}
-    },
-    {
       "id": "20260612-weekly-ginius",
       "label": "Alinhamento do projeto Ginius, definindo",
       "type": "reunion",
@@ -767,8 +2658,15 @@
       "meta": {}
     },
     {
-      "id": "p-lari@blip.ai",
-      "label": "Lari",
+      "id": "p-bia@blip.ai",
+      "label": "Bia",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-daniel.alves@blip.ai",
+      "label": "Daniel Alves",
       "type": "person",
       "r": 9,
       "meta": {}
@@ -781,22 +2679,15 @@
       "meta": {}
     },
     {
+      "id": "p-lari@blip.ai",
+      "label": "Lari",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
       "id": "p-eduardo@blip.ai",
       "label": "Eduardo",
-      "type": "person",
-      "r": 9,
-      "meta": {}
-    },
-    {
-      "id": "p-bia@blip.ai",
-      "label": "Bia",
-      "type": "person",
-      "r": 9,
-      "meta": {}
-    },
-    {
-      "id": "p-daniel.alves@blip.ai",
-      "label": "Daniel Alves",
       "type": "person",
       "r": 9,
       "meta": {}
@@ -1040,13 +2931,6 @@
           "Brain"
         ]
       }
-    },
-    {
-      "id": "p-marcio.curvello@blip.ai",
-      "label": "Marcio Curvello",
-      "type": "person",
-      "r": 9,
-      "meta": {}
     },
     {
       "id": "t-metadados",
@@ -1319,6 +3203,178 @@
       "meta": {}
     },
     {
+      "id": "20260625-weekly-interno",
+      "label": "Definição da estratégia do projeto Geniu",
+      "type": "reunion",
+      "r": 11,
+      "meta": {
+        "data": "2026-06-25",
+        "resumo": "A equipe definiu a estratégia do projeto Genius priorizando a interface do Gemini e a integração corporativa. Decidiu-se utilizar a interface nativa do Gemini no Drive, integrar o Drive como fonte de conhecimento para o Brain, e reduzir o grupo piloto para facilitar testes controlados e monitoramento eficiente.",
+        "tipo_documento": "reuniao_operacional",
+        "tags": [
+          "genius",
+          "gemini",
+          "drive",
+          "brain",
+          "curadoria",
+          "piloto",
+          "gcp",
+          "iam",
+          "governanca",
+          "ia",
+          "inteligenciaartificial",
+          "metas",
+          "roadmap",
+          "figma"
+        ],
+        "visibilidade": "publico",
+        "nivel_confidencialidade": "interno",
+        "status": "ativo",
+        "owner": "rafael.barreto@blip.ai",
+        "decisoes_tomadas": [
+          "A estratégia do projeto Genius priorizará a interface do Gemini e a integração corporativa.",
+          "A estratégia de movimentação de arquivos foi descentralizada para que as lideranças gerenciem seus próprios documentos.",
+          "A ingestão de materiais permanece pausada até a conclusão da curadoria.",
+          "A equipe decidiu utilizar a interface nativa do Gemini no Drive em vez de desenvolver uma interface personalizada.",
+          "A integração do Drive como fonte de conhecimento para o Brain foi aprovada.",
+          "O tamanho do grupo piloto será reduzido para facilitar testes controlados e monitoramento eficiente.",
+          "Métricas de esforço do usuário servirão para avaliar a qualidade das respostas da inteligência artificial.",
+          "O acesso para novos usuários no ambiente GCP deverá ser solicitado via chamado para a equipe de Gestão de Identidade e Acesso, utilizando um modelo padrão.",
+          "A estratégia de back-end pode sofrer alterações para priorizar o Brain como direcionador para o Genius.",
+          "O provisionamento de back-end específico para o MVP do Drive pode ser suspenso."
+        ],
+        "action_items": [
+          {
+            "responsavel": "joao.figueiredo@blip.ai",
+            "acao": "Criar orientações para lideranças sobre a classificação e o direcionamento de arquivos no Drive (Guia Movimentação).",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "luis.motta@blip.ai",
+            "acao": "Alinhar com Willer a curadoria dos arquivos no Figma para o Genius e para o capítulo (Curadoria Figmas).",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "luis.motta@blip.ai",
+            "acao": "Elaborar passo a passo sobre como utilizar o Drive conforme a estratégia definida (Manual Drive).",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "daniel.alves@blip.ai",
+            "acao": "Enviar modelo padronizado para abertura de chamados no IAM para a equipe (Instruções IAM).",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "O grupo",
+            "acao": "Selecionar 2 ou 3 pessoas responsáveis pela autorização de novos acessos ao ambiente GCP (Indicar Aprovadores).",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Marcar papo com Fernando Torres e equipe técnica para revisão do desenho do projeto (Agendar Reunião).",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": "juliana.braga@blip.ai",
+            "acao": "Consolidar o teste local de integração do Brain com o Drive (Teste Brain).",
+            "prazo": "amanhã"
+          },
+          {
+            "responsavel": "rafael.barreto@blip.ai",
+            "acao": "Estruturar visão de cronograma e prioridades para alinhamento das equipes (Cronograma MVP).",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": [
+              "luis.motta@blip.ai",
+              "willer.batista@blip.ai"
+            ],
+            "acao": "Definir 5 a 6 usuários para participar do teste piloto (Selecionar Usuários).",
+            "prazo": "indefinido"
+          },
+          {
+            "responsavel": [
+              "rafael.barreto@blip.ai",
+              "luis.motta@blip.ai"
+            ],
+            "acao": "Compartilhar com Bella Trindade o mapeamento de perguntas e a data de início dos testes (Enviar Dados).",
+            "prazo": "indefinido"
+          }
+        ],
+        "proximos_passos": [
+          "Criar um guia de uso (\"how-to\") para padronizar a interação com a pasta central do Drive e a realização de perguntas.",
+          "Incluir no cronograma uma apresentação institucional e um treinamento para todos os usuários antes do lançamento oficial.",
+          "Revisar o desenho técnico com as equipes de Inteligência Artificial e de Integração de Serviços.",
+          "Realizar uma reunião com Fernando Torres para revisar o desenho do projeto.",
+          "Realizar um teste A/B, comparando o custo e o desempenho do uso do Brain versus a consulta direta no Drive.",
+          "Organizar o cronograma e as prioridades de desenvolvimento para alinhar as atividades das equipes.",
+          "Estabelecer uma governança clara após o lançamento, definindo regras para a submissão e validação de arquivos no Drive.",
+          "Focar em cenários de uso reais e específicos para o piloto, em vez de testes genéricos.",
+          "Criar uma biblioteca de prompts para orientar as interações com o Gemini."
+        ],
+        "mencoes_produtos_blip": [
+          "Brain",
+          "Genius PS"
+        ]
+      }
+    },
+    {
+      "id": "p-fernando.torres@blip.ai",
+      "label": "Fernando Torres",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-juliana.braga@blip.ai",
+      "label": "Juliana Braga",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "t-drive",
+      "label": "#drive",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-brain",
+      "label": "#brain",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-curadoria",
+      "label": "#curadoria",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-piloto",
+      "label": "#piloto",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-iam",
+      "label": "#iam",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-metas",
+      "label": "#metas",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
       "id": "20240625-figma-claro-tv",
       "label": "Suporte técnico Claro TV",
       "type": "figma",
@@ -1364,13 +3420,6 @@
       "label": "Claro Tv",
       "type": "client",
       "r": 13,
-      "meta": {}
-    },
-    {
-      "id": "a-dc",
-      "label": "DC",
-      "type": "area",
-      "r": 7,
       "meta": {}
     },
     {
@@ -1474,49 +3523,479 @@
     },
     {
       "id": "20240730-figma-interno",
-      "label": "[P] Peer Nomination",
+      "label": "Aprovação de Movimentação",
       "type": "figma",
       "r": 9,
       "meta": {
-        "data": "2024-07-30",
-        "resumo": "Este fluxo permite que um usuário indique um colega de trabalho, fornecendo o nome do indicado e o motivo da nomeação, com validações para evitar indicações duplicadas e garantir a precisão dos dados.",
+        "data": "2026-06-26",
+        "resumo": "Este fluxo permite que o usuário consulte e aprove ou recuse movimentações financeiras pendentes associadas ao seu CPF, oferecendo opções para consultar outros CPFs ou encerrar o atendimento.",
         "tipo_documento": "jornada_conversacional",
         "tags": [
           "figma",
           "jornada",
-          "peer-nomination",
-          "rh",
-          "avaliação",
-          "engajamento"
+          "aprovação",
+          "movimentação",
+          "cpf"
         ],
-        "visibilidade": "publico",
+        "visibilidade": "restrito",
         "nivel_confidencialidade": "cliente",
         "status": "ativo",
         "owner": "",
         "validacoes_backend": [
-          {
-            "Validação": "Usuário já fez a nomeação?"
-          },
-          {
-            "Validação": "Usuário já fez a nomeação para esse par?"
-          }
+          "Validação de formato e existência do CPF.",
+          "Verificação de movimentações pendentes para o CPF informado.",
+          "Processamento de aprovação de movimentação.",
+          "Processamento de recusa de movimentação."
         ],
         "tratamento_excecoes": [
-          "Se o usuário já nomeou a pessoa, ele é direcionado para indicar outra pessoa.",
-          "Se o usuário já nomeou o par específico, ele é direcionado para indicar outra pessoa.",
-          "Se o nome da pessoa indicada não for confirmado, o fluxo retorna para a etapa de solicitação do nome.",
-          "Se o motivo da indicação não for confirmado, o fluxo retorna para a etapa de solicitação do motivo."
+          {
+            "CPF inválido": "O usuário é solicitado a digitar o CPF novamente."
+          },
+          {
+            "Não possui movimentação pendente": "O usuário é informado e questionado se deseja consultar outro CPF."
+          },
+          {
+            "Falha ao aprovar movimentação": "Mensagem de erro exibida e opção de consultar outra movimentação."
+          },
+          {
+            "Falha ao recusar movimentação": "Mensagem de erro exibida e opção de consultar outra movimentação."
+          }
+        ],
+        "trackings_tags": [],
+        "transicoes_flows": []
+      }
+    },
+    {
+      "id": "t-aprovação",
+      "label": "#aprovação",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-movimentação",
+      "label": "#movimentação",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-cpf",
+      "label": "#cpf",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "20240729-figma-interno",
+      "label": "Validation Cascade",
+      "type": "figma",
+      "r": 9,
+      "meta": {
+        "data": "2026-06-26",
+        "resumo": "Este fluxo descreve o processo de validação em cascata de dados de entrada, incluindo registro, criação de objeto e múltiplos redirecionamentos baseados nos resultados da validação.",
+        "tipo_documento": "jornada_conversacional",
+        "tags": [
+          "figma",
+          "jornada",
+          "validation",
+          "cascade",
+          "backend",
+          "redirect",
+          "form",
+          "data-entry"
+        ],
+        "visibilidade": "restrito",
+        "nivel_confidencialidade": "cliente",
+        "status": "ativo",
+        "owner": "",
+        "validacoes_backend": [
+          "Validação de \"Nome\"",
+          "Validação de \"Email\"",
+          "Validação de \"Telefone\"",
+          "Validação de \"CPF\"",
+          "Validação de \"Data de Nascimento\"",
+          "Validação de \"CEP\""
+        ],
+        "tratamento_excecoes": [
+          "Redirecionamento para o bloco de formulário de exceções (`ExceptionsFormBlock`) em caso de falha de validação.",
+          "O `ExceptionsFormBlock` permite a re-entrada de dados para nova validação ou cancelamento."
+        ],
+        "trackings_tags": [
+          "V.1.0.0 REGISTER entry trackings (identificado como um passo de registro de rastreamento)"
+        ],
+        "transicoes_flows": [
+          "V.2.2.0 REDIRECT to Smalltalks (para fluxo externo de Smalltalks)",
+          "V.2.4.0 REDIRECT to Regex Global (para fluxo externo de Regex Global)",
+          "V.2.5.0 REDIRECT to Orchestrator (para fluxo externo de Orchestrator)"
+        ]
+      }
+    },
+    {
+      "id": "t-validation",
+      "label": "#validation",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-cascade",
+      "label": "#cascade",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-redirect",
+      "label": "#redirect",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-form",
+      "label": "#form",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-data-entry",
+      "label": "#data-entry",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "20240626-figma-interno",
+      "label": "Finalizações",
+      "type": "figma",
+      "r": 9,
+      "meta": {
+        "data": "2026-06-26",
+        "resumo": "Este fluxo gerencia as mensagens de finalização de conversa, incluindo opções para o usuário continuar ou encerrar, e mensagens de inatividade.",
+        "tipo_documento": "jornada_conversacional",
+        "tags": [
+          "figma",
+          "jornada",
+          "finalizacao",
+          "encerramento",
+          "inatividade",
+          "bot"
+        ],
+        "visibilidade": "restrito",
+        "nivel_confidencialidade": "cliente",
+        "status": "ativo",
+        "owner": "",
+        "validacoes_backend": [
+          "Não há validações de backend explícitas mencionadas neste fluxo."
+        ],
+        "tratamento_excecoes": [
+          "Em F.1.0.1, se o `processedinput@indexMatched` não for \"Sim\" ou \"Não\", o fluxo direciona para `F.1.1.0 Mensagem de finalização`.",
+          "Em F.1.0.1, se `processedinput` existe mas não corresponde às condições de `indexMatched`, o fluxo direciona para `Orquestrador`."
+        ],
+        "trackings_tags": [
+          "ExecuteScript TrackEvent SendMessage (presente em todos os blocos)",
+          "Finalizacao algo mais origem (F.1.0.1 - Ações Entrada)",
+          "Finalizacao algo mais inesperado (F.1.0.1 - Ações Saída)",
+          "Finalizacao mensagem exibicao (F.1.1.0 - Ações Saída)",
+          "Finalizacao mensagem inatividade exibicao (F.1.1.1 - Ações Saída)"
+        ],
+        "transicoes_flows": [
+          "Orquestrador (saída de F.1.0.1)",
+          "Finalizacao algo mais selecao (saída de F.1.0.1)"
+        ]
+      }
+    },
+    {
+      "id": "t-finalizacao",
+      "label": "#finalizacao",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-encerramento",
+      "label": "#encerramento",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-inatividade",
+      "label": "#inatividade",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-bot",
+      "label": "#bot",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "20240626-figma-movimentacaobrasil",
+      "label": "Movimentação Brasil",
+      "type": "figma",
+      "r": 9,
+      "meta": {
+        "data": "2024-06-26",
+        "resumo": "Este fluxo gerencia as operações de movimentação, permitindo solicitar, consultar, alterar e cancelar movimentações no sistema.",
+        "tipo_documento": "jornada_conversacional",
+        "tags": [
+          "figma",
+          "jornada",
+          "movimentacao",
+          "logistica",
+          "fluxo"
+        ],
+        "visibilidade": "restrito",
+        "nivel_confidencialidade": "cliente",
+        "status": "ativo",
+        "owner": "",
+        "validacoes_backend": [
+          "Validação de código de produto.",
+          "Validação de quantidade (numérico positivo).",
+          "Validação de local de destino.",
+          "Validação de número de protocolo.",
+          "Validação de datas (formato e ordem cronológica).",
+          "Validação de status da movimentação para alteração/cancelamento."
+        ],
+        "tratamento_excecoes": [
+          "Mensagens de erro para produto inválido.",
+          "Mensagens de erro para quantidade inválida.",
+          "Mensagens de erro para destino inválido.",
+          "Mensagens de erro para protocolo inválido ou não encontrado.",
+          "Mensagens de erro para falhas na API de registro, busca, atualização ou cancelamento.",
+          "Mensagens de erro para datas inválidas."
         ],
         "trackings_tags": [
           {
-            "Tracking": "peer_nomination_start"
+            "track": "mov_brasil_inicio"
           },
           {
-            "Tracking": "peer_nomination_success"
+            "track": "mov_brasil_solicitar_inicio"
+          },
+          {
+            "track": "mov_brasil_solicitar_entrada_produto"
+          },
+          {
+            "track": "mov_brasil_solicitar_entrada_quantidade"
+          },
+          {
+            "track": "mov_brasil_solicitar_entrada_confirmar"
+          },
+          {
+            "track": "mov_brasil_solicitar_entrada_sucesso"
+          },
+          {
+            "track": "mov_brasil_solicitar_entrada_erro_api"
+          },
+          {
+            "track": "mov_brasil_solicitar_entrada_alterar"
+          },
+          {
+            "track": "mov_brasil_solicitar_saida_produto"
+          },
+          {
+            "track": "mov_brasil_solicitar_transferencia_produto"
+          },
+          {
+            "track": "mov_brasil_solicitar_transferencia_destino"
+          },
+          {
+            "track": "mov_brasil_solicitar_transferencia_confirmar"
+          },
+          {
+            "track": "mov_brasil_consultar_inicio"
+          },
+          {
+            "track": "mov_brasil_consultar_protocolo"
+          },
+          {
+            "track": "mov_brasil_consultar_protocolo_erro"
+          },
+          {
+            "track": "mov_brasil_consultar_protocolo_sucesso"
+          },
+          {
+            "track": "mov_brasil_consultar_protocolo_erro_api"
+          },
+          {
+            "track": "mov_brasil_consultar_periodo_inicio"
+          },
+          {
+            "track": "mov_brasil_consultar_periodo_fim"
+          },
+          {
+            "track": "mov_brasil_consultar_periodo_erro_inicio"
+          },
+          {
+            "track": "mov_brasil_consultar_periodo_erro_fim"
+          },
+          {
+            "track": "mov_brasil_consultar_periodo_sucesso"
+          },
+          {
+            "track": "mov_brasil_consultar_periodo_erro_api"
+          },
+          {
+            "track": "mov_brasil_alterar_inicio"
+          },
+          {
+            "track": "mov_brasil_alterar_protocolo"
+          },
+          {
+            "track": "mov_brasil_alterar_protocolo_erro"
+          },
+          {
+            "track": "mov_brasil_alterar_selecionar_campo"
+          },
+          {
+            "track": "mov_brasil_alterar_busca_erro_api"
+          },
+          {
+            "track": "mov_brasil_alterar_tipo"
+          },
+          {
+            "track": "mov_brasil_alterar_produto"
+          },
+          {
+            "track": "mov_brasil_alterar_quantidade"
+          },
+          {
+            "track": "mov_brasil_alterar_destino"
+          },
+          {
+            "track": "mov_brasil_alterar_confirmar"
+          },
+          {
+            "track": "mov_brasil_alterar_sucesso"
+          },
+          {
+            "track": "mov_brasil_alterar_erro_api"
+          },
+          {
+            "track": "mov_brasil_cancelar_inicio"
+          },
+          {
+            "track": "mov_brasil_cancelar_protocolo"
+          },
+          {
+            "track": "mov_brasil_cancelar_protocolo_erro"
+          },
+          {
+            "track": "mov_brasil_cancelar_confirmar"
+          },
+          {
+            "track": "mov_brasil_cancelar_busca_erro_api"
+          },
+          {
+            "track": "mov_brasil_cancelar_sucesso"
+          },
+          {
+            "track": "mov_brasil_cancelar_erro_api"
           }
+        ],
+        "transicoes_flows": [
+          "Transição para o menu principal (`M.2.0.0`) em diversos pontos.",
+          "Transições para subfluxos de solicitação, consulta, alteração e cancelamento."
+        ]
+      }
+    },
+    {
+      "id": "cli-movimentacaobrasil",
+      "label": "Movimentacaobrasil",
+      "type": "client",
+      "r": 13,
+      "meta": {}
+    },
+    {
+      "id": "t-movimentacao",
+      "label": "#movimentacao",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-logistica",
+      "label": "#logistica",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-fluxo",
+      "label": "#fluxo",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "20231027-figma-interno",
+      "label": "Onboarding Fluxo principal",
+      "type": "figma",
+      "r": 9,
+      "meta": {
+        "data": "2026-06-26",
+        "resumo": "Este fluxo descreve o processo principal de onboarding, incluindo a definição de senioridade e país de negócio para diferentes tipos de contratação.",
+        "tipo_documento": "jornada_conversacional",
+        "tags": [
+          "figma",
+          "jornada",
+          "onboarding",
+          "fluxo_principal"
+        ],
+        "visibilidade": "restrito",
+        "nivel_confidencialidade": "cliente",
+        "status": "ativo",
+        "owner": "",
+        "validacoes_backend": [
+          "Decisão TOTVS",
+          "Decisão DEEL",
+          "De para CPF/TOTVS",
+          "De para data de nascimento/DEEL"
+        ],
+        "tratamento_excecoes": [
+          {
+            "OLL A usuário não encontrado": "Indica que o usuário não foi encontrado no sistema após a validação do formato de e-mail."
+          }
+        ],
+        "trackings_tags": [
+          "MAIN BOT",
+          "0123 (associado a Define senioridade e Msg termos e lgpd)",
+          "0334 (associado a Onboarding Lia)",
+          "OLLS (associado a De para CPF/TOTVS)",
+          "G (associado a Qual o país?, Formato de email, De para data de nascimento/DEEL, Define senioridade ES/MX)",
+          "0.124 (associado a Define país de negócio)",
+          "0124 (associado a Define senioridade ES/MX)",
+          "OLL (associado a A usuário não encontrado)"
         ],
         "transicoes_flows": []
       }
+    },
+    {
+      "id": "t-onboarding",
+      "label": "#onboarding",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-fluxo_principal",
+      "label": "#fluxo_principal",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
+    },
+    {
+      "id": "t-orquestrador",
+      "label": "#orquestrador",
+      "type": "tag",
+      "r": 5,
+      "meta": {}
     },
     {
       "id": "t-peer-nomination",
@@ -1549,6 +4028,1670 @@
   ],
   "edges": [
     {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-felipe.ventorim@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-julie.laurent@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-larissa.jesus@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-marianne.diefenthaler@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-moacir.junior@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-marcelo.toro@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-danielle.sodre@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-anderson.fonseca@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-ana.segato@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-luiz.souza@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-renato.mendes@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-matias.neto@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-leticia.guerrero@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-thiago.bartolozzi@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-poliana.pires@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-leandro.lima@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-ishvann.larsen@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-francielle.rodrigues@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-fernando.silva@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-juliana.martins@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-grasiele.brustolom@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-ana.morais@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-matheus.fernandes@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-matheus.barcelos@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-jaqueline.amorim@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-maria.gonzalez@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-william.colen@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-lohanna.almeida@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-arthur.batista@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-maria.varela@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-leandro.barreto@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-rainer.resende@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-thais.oliveira@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-fernando.palumbo@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-caio.lima@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-ricardo.borges@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-lorenna.farias@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-patricia.ferreira@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-anna.machalous@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-matheus.lima@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-diego.quintao@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-aline.reis@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-juliana.maranhao@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-marcelo.silva@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-pedro.meirelles@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-ana.castro@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-thais.arizo@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-marcio.curvello@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-andre.dutra@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-estanislau.junior@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-norman.sabino@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-caroline.guilherme@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-euleno.sousa@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-camila.silva@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-vania.rodenas@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-christyan.pires@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-andre.goncalves@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-joao.barros@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-cristiane.arakaki@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-anivaldo.junior@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-helena.bello@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-milton.junior@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-ana.mesquita@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-silvio.santos@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-hiran.martins@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-beatriz.merino@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-airton.junior@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-renato.moraes@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-karina.carneiro@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-lilian.silva@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-daniela.araujo@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-julia.franco@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-paulo.mendonca@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-isabella.monteiro@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-joao.figueiredo@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-ilse.rosa@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-andre.fernandes@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-michele.santos@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-leonardo.russi@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-paulo.junior@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-guilherme.amuy@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-thiago.bebiano@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-rodrigo.battella@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-mandy.cerqueira@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-giovana.pereira@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-sergio.passos@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-matheus.campos@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-claudia.laurente@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-jacob.suarez@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-marcus.bastos@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-raphael.lelis@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-matheus.dorst@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-leonardo.nakasima@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-lucas.geoffroy@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-aline.gomes@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-ellison.guimaraes@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-ana.fermino@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-vitor.vieira@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-rafael.araujo@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-lorena.miguel@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-camilla.mendes@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-edu.guerreiro@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-felipe.andrade@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-junio.oliveira@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-carolina.raitz@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-arnaldo.macedo@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-adriane.gomes@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-leonardo.goncalves@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-itzel.cabrera@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-joao.corityac@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-maria.cisneros@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-maria.alcantara@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-andreas.rieck@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-irina.serrano@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-luis.santos@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-rafael.barreto@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-leticia.rezende@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-felipe.bento@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-matheus.alves@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "p-cristina.jover@blip.ai"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "a-ops"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "a-cs"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "a-dados"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "a-engenharia"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "r-alinhamento"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "t-service2.0"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "t-nps"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "t-professionalservice"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "t-reestruturacao"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "t-delivery"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "t-produto"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "t-consultingservices"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "t-valuemanagement"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "t-dados"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "t-bizops"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "t-estiling"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "t-designconversacional"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "t-techleads"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "t-ia"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "t-automacao"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "t-peoplesurvey"
+    },
+    {
+      "source": "20260507-alinhamento-interno",
+      "target": "t-racatom"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "p-andre.dutra@blip.ai"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "p-gustavo.santos@blip.ai"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "p-julia.franco@blip.ai"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "p-luis.motta@blip.ai"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "p-rafael.barreto@blip.ai"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "p-luiz.souza@blip.ai"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "p-fernando.palumbo@blip.ai"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "p-maria.alcantara@blip.ai"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "p-leandro.lima@blip.ai"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "p-caio.lima@blip.ai"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "p-juliana.martins@blip.ai"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "p-patricia.ferreira@blip.ai"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "p-matheus.alves@blip.ai"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "p-karina.carneiro@blip.ai"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "a-dc"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "a-dados"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "a-engenharia"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "a-ops"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "r-alinhamento"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "t-esteiradedelivery"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "t-ps"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "t-processos"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "t-ritos"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "t-azuredevops"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "t-complexidade"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "t-papeiseresponsabilidades"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "t-dataforservice"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "t-engenharia"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "t-dc"
+    },
+    {
+      "source": "20260126-alinhamento-interno",
+      "target": "t-dados"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-larissa.jesus@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-moacir.junior@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-aline.guimaraes@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-matheus.alves@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-renato.mendes@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-matias.neto@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-leandro.lima@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-francielle.rodrigues@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-juliana.martins@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-grasiele.brustolom@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-daniela.alves@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-matheus.fernandes@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-cesar.correia@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-matheus.barcelos@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-jaqueline.amorim@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-arthur.batista@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-leandro.barreto@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-fernando.palumbo@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-caio.lima@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-ricardo.borges@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-lorenna.farias@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-weslen.furtado@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-diego.quintao@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-cintia.souza@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-marcelo.silva@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-pedro.meirelles@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-ana.castro@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-andre.dutra@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-estanislau.junior@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-lucas.souza@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-anderson.silva@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-vania.rodenas@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-bruna.araujo@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-christyan.pires@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-andre.goncalves@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-anivaldo.junior@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-larissa.souza@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-milton.junior@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-claudia.ippolito@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-ana.mesquita@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-silvio.santos@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-beatriz.merino@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-renato.moraes@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-karina.carneiro@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-lilian.silva@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-julia.franco@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-ilse.rosa@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-andre.fernandes@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-paulo.junior@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-guilherme.amuy@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-malu.alves@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-thiago.bebiano@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-mandy.cerqueira@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-giovana.pereira@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-sergio.passos@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-matheus.campos@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-claudia.laurente@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-matheus.dorst@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-diobert.nascimento@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-ana.zandavalle@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-aline.gomes@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-vitor.vieira@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-lorena.miguel@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-edu.guerreiro@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-felipe.andrade@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-junio.oliveira@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-carolina.raitz@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-itatiana.carvalho@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-arnaldo.macedo@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-adriane.gomes@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-leticia.farias@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-leonardo.goncalves@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-joao.corityac@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-maria.alcantara@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-rafael.barreto@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-irina.serrano@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-david.masson@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-felipe.bento@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-marianne.diefenthäler@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "p-tiago.evo@blip.ai"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "a-ops"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "a-cs"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "a-dados"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "a-engenharia"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "a-diretoria"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "r-review"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "t-psstrategy"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "t-metricas"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "t-resultados"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "t-cesat"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "t-feriasincentivadas"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "t-produtividade"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "t-dados"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "t-ia"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "t-receita"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "t-margem"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "t-enps"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "t-clientfacing"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "t-planejamento"
+    },
+    {
+      "source": "20250925-review-ps-interno",
+      "target": "t-custos"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-julie.laurent@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-larissa.jesus@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-marianne.diefenthaler@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-moacir.junior@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-danielle.sodre@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-aline.guimaraes@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-renato.mendes@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-matias.neto@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-leticia.guerrero@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-leandro.lima@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-ishvann.larsen@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-francielle.rodrigues@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-juliana.martins@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-grasiele.brustolom@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-matheus.fernandes@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-cesar.correia@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-matheus.barcelos@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-jaqueline.amorim@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-pedro.frade@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-william.colen@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-arthur.batista@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-leandro.barreto@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-fernando.palumbo@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-caio.lima@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-ricardo.borges@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-lorenna.farias@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-patricia.ferreira@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-diego.quintao@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-juliana.maranhao@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-marcelo.silva@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-pedro.meirelles@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-ana.castro@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-andre.dutra@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-estanislau.junior@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-norman.sabino@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-caroline.guilherme@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-lucas.souza@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-anderson.silva@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-vania.rodenas@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-christyan.pires@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-andre.goncalves@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-anivaldo.junior@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-milton.junior@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-claudia.ippolito@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-ana.mesquita@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-silvio.santos@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-hiran.martins@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-beatriz.merino@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-renato.moraes@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-karina.carneiro@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-lilian.silva@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-paulo.mendonca@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-julia.franco@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-ilse.delarosa@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-andre.fernandes@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-paulo.junior@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-guilherme.amuy@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-thiago.bebiano@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-mandy.cerqueira@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-giovana.pereira@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-sergio.passos@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-matheus.campos@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-claudia.laurente@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-matheus.dorst@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-leonardo.nakasima@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-ana.zandavalle@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-aline.gomes@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-vitor.vieira@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-paulo.goncalves@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-lorena.miguel@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-edu.guerreiro@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-felipe.andrade@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-junio.oliveira@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-carolina.raitz@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-itatiana.carvalho@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-arnaldo.macedo@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-adriane.gomes@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-leticia.farias@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-leonardo.goncalves@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-joao.corityac@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-maria.alcantara@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-rafael.barreto@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-irina.serrano@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-andreas.rieck@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-felipe.bento@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-matheus.alves@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "p-tiago.evo@blip.ai"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "a-ops"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "a-diretoria"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "r-review"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-professional_services"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-ps_strategy"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-metricas"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-receita"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-gross_profit"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-produtividade"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-clientes"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-churn"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-rcs"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-custom_channel"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-gpt"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-personal_seller"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-conversational_commerce"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-agent_factory"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-delivery_2.0"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-offsite"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-meta"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-cesat"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-mvo"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-blip_calls"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-blip_estudio"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-whatsapp"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-ia"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-pix_automatico"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-bancopan"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-c&a"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-ifood"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-nespresso"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-recovery"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-veloe"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-bmg"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-dell"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-claro"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-mercadolivre"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-smartfit"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-mercadopago"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-itau"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-boostmobile"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-grupovelas"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-ford"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-nomadliving"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-qualitas"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-quesc"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-safra"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-leroymerlin"
+    },
+    {
+      "source": "20251127-strategy-review-interno",
+      "target": "t-bradesco"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
       "source": "20260525-weekly-interno",
       "target": "p-rafael.barreto@blip.ai"
     },
@@ -1562,15 +5705,11 @@
     },
     {
       "source": "20260525-weekly-interno",
-      "target": "p-vania.rodenas@blip.ai"
-    },
-    {
-      "source": "20260525-weekly-interno",
-      "target": "p-vinicius.bandeira@blip.ai"
-    },
-    {
-      "source": "20260525-weekly-interno",
       "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "p-vania.rodenas@blip.ai"
     },
     {
       "source": "20260525-weekly-interno",
@@ -1650,22 +5789,6 @@
     },
     {
       "source": "20260528-weekly-interno",
-      "target": "p-rafael.barreto@blip.ai"
-    },
-    {
-      "source": "20260528-weekly-interno",
-      "target": "p-euleno.sousa@blip.ai"
-    },
-    {
-      "source": "20260528-weekly-interno",
-      "target": "p-joao.figueiredo@blip.ai"
-    },
-    {
-      "source": "20260528-weekly-interno",
-      "target": "p-vania.rodenas@blip.ai"
-    },
-    {
-      "source": "20260528-weekly-interno",
       "target": "p-vinicius.bandeira@blip.ai"
     },
     {
@@ -1674,7 +5797,23 @@
     },
     {
       "source": "20260528-weekly-interno",
+      "target": "p-rafael.barreto@blip.ai"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "p-joao.figueiredo@blip.ai"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "p-euleno.sousa@blip.ai"
+    },
+    {
+      "source": "20260528-weekly-interno",
       "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "p-vania.rodenas@blip.ai"
     },
     {
       "source": "20260528-weekly-interno",
@@ -1778,22 +5917,6 @@
     },
     {
       "source": "20260601-weekly-interno",
-      "target": "p-rafael.barreto@blip.ai"
-    },
-    {
-      "source": "20260601-weekly-interno",
-      "target": "p-euleno.sousa@blip.ai"
-    },
-    {
-      "source": "20260601-weekly-interno",
-      "target": "p-joao.figueiredo@blip.ai"
-    },
-    {
-      "source": "20260601-weekly-interno",
-      "target": "p-vania.rodenas@blip.ai"
-    },
-    {
-      "source": "20260601-weekly-interno",
       "target": "p-vinicius.bandeira@blip.ai"
     },
     {
@@ -1802,7 +5925,23 @@
     },
     {
       "source": "20260601-weekly-interno",
+      "target": "p-rafael.barreto@blip.ai"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "p-joao.figueiredo@blip.ai"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "p-euleno.sousa@blip.ai"
+    },
+    {
+      "source": "20260601-weekly-interno",
       "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "p-vania.rodenas@blip.ai"
     },
     {
       "source": "20260601-weekly-interno",
@@ -1894,39 +6033,7 @@
     },
     {
       "source": "20260612-weekly-ginius",
-      "target": "p-rafael.barreto@blip.ai"
-    },
-    {
-      "source": "20260612-weekly-ginius",
-      "target": "p-euleno.sousa@blip.ai"
-    },
-    {
-      "source": "20260612-weekly-ginius",
-      "target": "p-joao.figueiredo@blip.ai"
-    },
-    {
-      "source": "20260612-weekly-ginius",
-      "target": "p-lari@blip.ai"
-    },
-    {
-      "source": "20260612-weekly-ginius",
-      "target": "p-vania.rodenas@blip.ai"
-    },
-    {
-      "source": "20260612-weekly-ginius",
-      "target": "p-marcio@blip.ai"
-    },
-    {
-      "source": "20260612-weekly-ginius",
       "target": "p-vinicius.bandeira@blip.ai"
-    },
-    {
-      "source": "20260612-weekly-ginius",
-      "target": "p-eduardo@blip.ai"
-    },
-    {
-      "source": "20260612-weekly-ginius",
-      "target": "p-luis.motta@blip.ai"
     },
     {
       "source": "20260612-weekly-ginius",
@@ -1938,7 +6045,39 @@
     },
     {
       "source": "20260612-weekly-ginius",
+      "target": "p-marcio@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-luis.motta@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-rafael.barreto@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-joao.figueiredo@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-euleno.sousa@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
       "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-lari@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-vania.rodenas@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-eduardo@blip.ai"
     },
     {
       "source": "20260612-weekly-ginius",
@@ -2050,31 +6189,7 @@
     },
     {
       "source": "20260615-weekly-genius",
-      "target": "p-rafael.barreto@blip.ai"
-    },
-    {
-      "source": "20260615-weekly-genius",
-      "target": "p-euleno.sousa@blip.ai"
-    },
-    {
-      "source": "20260615-weekly-genius",
-      "target": "p-joao.figueiredo@blip.ai"
-    },
-    {
-      "source": "20260615-weekly-genius",
-      "target": "p-vania.rodenas@blip.ai"
-    },
-    {
-      "source": "20260615-weekly-genius",
-      "target": "p-marcio.curvello@blip.ai"
-    },
-    {
-      "source": "20260615-weekly-genius",
       "target": "p-vinicius.bandeira@blip.ai"
-    },
-    {
-      "source": "20260615-weekly-genius",
-      "target": "p-luis.motta@blip.ai"
     },
     {
       "source": "20260615-weekly-genius",
@@ -2082,7 +6197,31 @@
     },
     {
       "source": "20260615-weekly-genius",
+      "target": "p-luis.motta@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "p-rafael.barreto@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "p-joao.figueiredo@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "p-euleno.sousa@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
       "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "p-marcio.curvello@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "p-vania.rodenas@blip.ai"
     },
     {
       "source": "20260615-weekly-genius",
@@ -2146,35 +6285,7 @@
     },
     {
       "source": "20260618-weekly-interno",
-      "target": "p-rafael.barreto@blip.ai"
-    },
-    {
-      "source": "20260618-weekly-interno",
-      "target": "p-euleno.sousa@blip.ai"
-    },
-    {
-      "source": "20260618-weekly-interno",
-      "target": "p-joao.figueiredo@blip.ai"
-    },
-    {
-      "source": "20260618-weekly-interno",
-      "target": "p-vania.rodenas@blip.ai"
-    },
-    {
-      "source": "20260618-weekly-interno",
-      "target": "p-marcio.curvello@blip.ai"
-    },
-    {
-      "source": "20260618-weekly-interno",
       "target": "p-vinicius.bandeira@blip.ai"
-    },
-    {
-      "source": "20260618-weekly-interno",
-      "target": "p-bella.trindade@blip.ai"
-    },
-    {
-      "source": "20260618-weekly-interno",
-      "target": "p-luis.motta@blip.ai"
     },
     {
       "source": "20260618-weekly-interno",
@@ -2182,7 +6293,35 @@
     },
     {
       "source": "20260618-weekly-interno",
+      "target": "p-luis.motta@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-rafael.barreto@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-joao.figueiredo@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-euleno.sousa@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
       "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-bella.trindade@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-marcio.curvello@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-vania.rodenas@blip.ai"
     },
     {
       "source": "20260618-weekly-interno",
@@ -2250,35 +6389,7 @@
     },
     {
       "source": "20260622-weekly-interno",
-      "target": "p-rafael.barreto@blip.ai"
-    },
-    {
-      "source": "20260622-weekly-interno",
-      "target": "p-euleno.sousa@blip.ai"
-    },
-    {
-      "source": "20260622-weekly-interno",
-      "target": "p-joao.figueiredo@blip.ai"
-    },
-    {
-      "source": "20260622-weekly-interno",
-      "target": "p-vania.rodenas@blip.ai"
-    },
-    {
-      "source": "20260622-weekly-interno",
-      "target": "p-marcio.curvello@blip.ai"
-    },
-    {
-      "source": "20260622-weekly-interno",
       "target": "p-vinicius.bandeira@blip.ai"
-    },
-    {
-      "source": "20260622-weekly-interno",
-      "target": "p-bella.trindade@blip.ai"
-    },
-    {
-      "source": "20260622-weekly-interno",
-      "target": "p-luis.motta@blip.ai"
     },
     {
       "source": "20260622-weekly-interno",
@@ -2286,7 +6397,35 @@
     },
     {
       "source": "20260622-weekly-interno",
+      "target": "p-luis.motta@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-rafael.barreto@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-joao.figueiredo@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-euleno.sousa@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
       "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-bella.trindade@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-marcio.curvello@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-vania.rodenas@blip.ai"
     },
     {
       "source": "20260622-weekly-interno",
@@ -2347,6 +6486,126 @@
     {
       "source": "20260622-weekly-interno",
       "target": "t-desenvolvimento"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "p-daniel.alves@blip.ai"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "p-luis.motta@blip.ai"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "p-rafael.barreto@blip.ai"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "p-joao.figueiredo@blip.ai"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "p-fernando.torres@blip.ai"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "p-euleno.sousa@blip.ai"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "p-willer.batista@blip.ai"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "p-bella.trindade@blip.ai"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "p-juliana.braga@blip.ai"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "p-marcio.curvello@blip.ai"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "p-vania.rodenas@blip.ai"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "a-ops"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "a-engenharia"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "a-dados"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "r-weekly"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "t-genius"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "t-gemini"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "t-drive"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "t-brain"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "t-curadoria"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "t-piloto"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "t-gcp"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "t-iam"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "t-governanca"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "t-ia"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "t-inteligenciaartificial"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "t-metas"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "t-roadmap"
+    },
+    {
+      "source": "20260625-weekly-interno",
+      "target": "t-figma"
     },
     {
       "source": "20240625-figma-claro-tv",
@@ -2430,6 +6689,134 @@
     },
     {
       "source": "20240730-figma-interno",
+      "target": "t-aprovação"
+    },
+    {
+      "source": "20240730-figma-interno",
+      "target": "t-movimentação"
+    },
+    {
+      "source": "20240730-figma-interno",
+      "target": "t-cpf"
+    },
+    {
+      "source": "20240729-figma-interno",
+      "target": "a-dc"
+    },
+    {
+      "source": "20240729-figma-interno",
+      "target": "t-figma"
+    },
+    {
+      "source": "20240729-figma-interno",
+      "target": "t-jornada"
+    },
+    {
+      "source": "20240729-figma-interno",
+      "target": "t-validation"
+    },
+    {
+      "source": "20240729-figma-interno",
+      "target": "t-cascade"
+    },
+    {
+      "source": "20240729-figma-interno",
+      "target": "t-backend"
+    },
+    {
+      "source": "20240729-figma-interno",
+      "target": "t-redirect"
+    },
+    {
+      "source": "20240729-figma-interno",
+      "target": "t-form"
+    },
+    {
+      "source": "20240729-figma-interno",
+      "target": "t-data-entry"
+    },
+    {
+      "source": "20240626-figma-interno",
+      "target": "a-dc"
+    },
+    {
+      "source": "20240626-figma-interno",
+      "target": "t-figma"
+    },
+    {
+      "source": "20240626-figma-interno",
+      "target": "t-jornada"
+    },
+    {
+      "source": "20240626-figma-interno",
+      "target": "t-finalizacao"
+    },
+    {
+      "source": "20240626-figma-interno",
+      "target": "t-encerramento"
+    },
+    {
+      "source": "20240626-figma-interno",
+      "target": "t-inatividade"
+    },
+    {
+      "source": "20240626-figma-interno",
+      "target": "t-bot"
+    },
+    {
+      "source": "20240626-figma-movimentacaobrasil",
+      "target": "cli-movimentacaobrasil"
+    },
+    {
+      "source": "20240626-figma-movimentacaobrasil",
+      "target": "a-dc"
+    },
+    {
+      "source": "20240626-figma-movimentacaobrasil",
+      "target": "t-figma"
+    },
+    {
+      "source": "20240626-figma-movimentacaobrasil",
+      "target": "t-jornada"
+    },
+    {
+      "source": "20240626-figma-movimentacaobrasil",
+      "target": "t-movimentacao"
+    },
+    {
+      "source": "20240626-figma-movimentacaobrasil",
+      "target": "t-logistica"
+    },
+    {
+      "source": "20240626-figma-movimentacaobrasil",
+      "target": "t-fluxo"
+    },
+    {
+      "source": "20231027-figma-interno",
+      "target": "a-dc"
+    },
+    {
+      "source": "20231027-figma-interno",
+      "target": "t-figma"
+    },
+    {
+      "source": "20231027-figma-interno",
+      "target": "t-jornada"
+    },
+    {
+      "source": "20231027-figma-interno",
+      "target": "t-onboarding"
+    },
+    {
+      "source": "20231027-figma-interno",
+      "target": "t-fluxo_principal"
+    },
+    {
+      "source": "20231027-figma-interno",
+      "target": "t-orquestrador"
+    },
+    {
+      "source": "20240730-figma-interno",
       "target": "t-peer-nomination"
     },
     {
@@ -2446,17 +6833,17 @@
     }
   ],
   "meta": {
-    "gerado_em": "2026-06-26T15:26:29.211410",
+    "gerado_em": "2026-06-26T17:32:15.468811",
     "usuario": "willer.alberto@blip.ai",
-    "total_nodes": 109,
-    "total_edges": 224,
+    "total_nodes": 357,
+    "total_edges": 701,
     "breakdown": {
-      "reunion": 7,
-      "person": 14,
-      "area": 5,
-      "tag": 77,
-      "client": 3,
-      "figma": 3
+      "reunion": 12,
+      "person": 153,
+      "area": 6,
+      "tag": 175,
+      "client": 4,
+      "figma": 7
     }
   }
 }
