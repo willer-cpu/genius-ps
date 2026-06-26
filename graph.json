@@ -95,8 +95,8 @@
       "meta": {}
     },
     {
-      "id": "p-vania.rodenas@blip.ai",
-      "label": "Vania Rodenas",
+      "id": "p-joao.figueiredo@blip.ai",
+      "label": "Joao Figueiredo",
       "type": "person",
       "r": 9,
       "meta": {}
@@ -109,15 +109,8 @@
       "meta": {}
     },
     {
-      "id": "p-joao.figueiredo@blip.ai",
-      "label": "Joao Figueiredo",
-      "type": "person",
-      "r": 9,
-      "meta": {}
-    },
-    {
-      "id": "p-willer.batista@blip.ai",
-      "label": "Willer Batista",
+      "id": "p-vania.rodenas@blip.ai",
+      "label": "Vania Rodenas",
       "type": "person",
       "r": 9,
       "meta": {}
@@ -125,6 +118,13 @@
     {
       "id": "p-vinicius.bandeira@blip.ai",
       "label": "Vinicius Bandeira",
+      "type": "person",
+      "r": 9,
+      "meta": {}
+    },
+    {
+      "id": "p-willer.batista@blip.ai",
+      "label": "Willer Batista",
       "type": "person",
       "r": 9,
       "meta": {}
@@ -767,15 +767,15 @@
       "meta": {}
     },
     {
-      "id": "p-marcio@blip.ai",
-      "label": "Marcio",
+      "id": "p-lari@blip.ai",
+      "label": "Lari",
       "type": "person",
       "r": 9,
       "meta": {}
     },
     {
-      "id": "p-lari@blip.ai",
-      "label": "Lari",
+      "id": "p-marcio@blip.ai",
+      "label": "Marcio",
       "type": "person",
       "r": 9,
       "meta": {}
@@ -788,15 +788,15 @@
       "meta": {}
     },
     {
-      "id": "p-daniel.alves@blip.ai",
-      "label": "Daniel Alves",
+      "id": "p-bia@blip.ai",
+      "label": "Bia",
       "type": "person",
       "r": 9,
       "meta": {}
     },
     {
-      "id": "p-bia@blip.ai",
-      "label": "Bia",
+      "id": "p-daniel.alves@blip.ai",
+      "label": "Daniel Alves",
       "type": "person",
       "r": 9,
       "meta": {}
@@ -1554,7 +1554,7 @@
     },
     {
       "source": "20260525-weekly-interno",
-      "target": "p-vania.rodenas@blip.ai"
+      "target": "p-joao.figueiredo@blip.ai"
     },
     {
       "source": "20260525-weekly-interno",
@@ -1562,15 +1562,15 @@
     },
     {
       "source": "20260525-weekly-interno",
-      "target": "p-joao.figueiredo@blip.ai"
-    },
-    {
-      "source": "20260525-weekly-interno",
-      "target": "p-willer.batista@blip.ai"
+      "target": "p-vania.rodenas@blip.ai"
     },
     {
       "source": "20260525-weekly-interno",
       "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
+      "source": "20260525-weekly-interno",
+      "target": "p-willer.batista@blip.ai"
     },
     {
       "source": "20260525-weekly-interno",
@@ -1654,15 +1654,7 @@
     },
     {
       "source": "20260528-weekly-interno",
-      "target": "p-vania.rodenas@blip.ai"
-    },
-    {
-      "source": "20260528-weekly-interno",
       "target": "p-euleno.sousa@blip.ai"
-    },
-    {
-      "source": "20260528-weekly-interno",
-      "target": "p-luis.motta@blip.ai"
     },
     {
       "source": "20260528-weekly-interno",
@@ -1670,11 +1662,19 @@
     },
     {
       "source": "20260528-weekly-interno",
-      "target": "p-willer.batista@blip.ai"
+      "target": "p-vania.rodenas@blip.ai"
     },
     {
       "source": "20260528-weekly-interno",
       "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "p-luis.motta@blip.ai"
+    },
+    {
+      "source": "20260528-weekly-interno",
+      "target": "p-willer.batista@blip.ai"
     },
     {
       "source": "20260528-weekly-interno",
@@ -1782,15 +1782,7 @@
     },
     {
       "source": "20260601-weekly-interno",
-      "target": "p-vania.rodenas@blip.ai"
-    },
-    {
-      "source": "20260601-weekly-interno",
       "target": "p-euleno.sousa@blip.ai"
-    },
-    {
-      "source": "20260601-weekly-interno",
-      "target": "p-luis.motta@blip.ai"
     },
     {
       "source": "20260601-weekly-interno",
@@ -1798,11 +1790,19 @@
     },
     {
       "source": "20260601-weekly-interno",
-      "target": "p-willer.batista@blip.ai"
+      "target": "p-vania.rodenas@blip.ai"
     },
     {
       "source": "20260601-weekly-interno",
       "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "p-luis.motta@blip.ai"
+    },
+    {
+      "source": "20260601-weekly-interno",
+      "target": "p-willer.batista@blip.ai"
     },
     {
       "source": "20260601-weekly-interno",
@@ -1894,23 +1894,7 @@
     },
     {
       "source": "20260612-weekly-ginius",
-      "target": "p-marcio@blip.ai"
-    },
-    {
-      "source": "20260612-weekly-ginius",
-      "target": "p-lari@blip.ai"
-    },
-    {
-      "source": "20260612-weekly-ginius",
       "target": "p-rafael.barreto@blip.ai"
-    },
-    {
-      "source": "20260612-weekly-ginius",
-      "target": "p-eduardo@blip.ai"
-    },
-    {
-      "source": "20260612-weekly-ginius",
-      "target": "p-vania.rodenas@blip.ai"
     },
     {
       "source": "20260612-weekly-ginius",
@@ -1918,7 +1902,27 @@
     },
     {
       "source": "20260612-weekly-ginius",
-      "target": "p-daniel.alves@blip.ai"
+      "target": "p-joao.figueiredo@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-lari@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-vania.rodenas@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-marcio@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
+      "source": "20260612-weekly-ginius",
+      "target": "p-eduardo@blip.ai"
     },
     {
       "source": "20260612-weekly-ginius",
@@ -1926,19 +1930,15 @@
     },
     {
       "source": "20260612-weekly-ginius",
-      "target": "p-joao.figueiredo@blip.ai"
-    },
-    {
-      "source": "20260612-weekly-ginius",
       "target": "p-bia@blip.ai"
     },
     {
       "source": "20260612-weekly-ginius",
-      "target": "p-willer.batista@blip.ai"
+      "target": "p-daniel.alves@blip.ai"
     },
     {
       "source": "20260612-weekly-ginius",
-      "target": "p-vinicius.bandeira@blip.ai"
+      "target": "p-willer.batista@blip.ai"
     },
     {
       "source": "20260612-weekly-ginius",
@@ -2054,23 +2054,7 @@
     },
     {
       "source": "20260615-weekly-genius",
-      "target": "p-vania.rodenas@blip.ai"
-    },
-    {
-      "source": "20260615-weekly-genius",
       "target": "p-euleno.sousa@blip.ai"
-    },
-    {
-      "source": "20260615-weekly-genius",
-      "target": "p-daniel.alves@blip.ai"
-    },
-    {
-      "source": "20260615-weekly-genius",
-      "target": "p-marcio.curvello@blip.ai"
-    },
-    {
-      "source": "20260615-weekly-genius",
-      "target": "p-luis.motta@blip.ai"
     },
     {
       "source": "20260615-weekly-genius",
@@ -2078,11 +2062,27 @@
     },
     {
       "source": "20260615-weekly-genius",
-      "target": "p-willer.batista@blip.ai"
+      "target": "p-vania.rodenas@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "p-marcio.curvello@blip.ai"
     },
     {
       "source": "20260615-weekly-genius",
       "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "p-luis.motta@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "p-daniel.alves@blip.ai"
+    },
+    {
+      "source": "20260615-weekly-genius",
+      "target": "p-willer.batista@blip.ai"
     },
     {
       "source": "20260615-weekly-genius",
@@ -2150,27 +2150,7 @@
     },
     {
       "source": "20260618-weekly-interno",
-      "target": "p-bella.trindade@blip.ai"
-    },
-    {
-      "source": "20260618-weekly-interno",
-      "target": "p-vania.rodenas@blip.ai"
-    },
-    {
-      "source": "20260618-weekly-interno",
       "target": "p-euleno.sousa@blip.ai"
-    },
-    {
-      "source": "20260618-weekly-interno",
-      "target": "p-daniel.alves@blip.ai"
-    },
-    {
-      "source": "20260618-weekly-interno",
-      "target": "p-marcio.curvello@blip.ai"
-    },
-    {
-      "source": "20260618-weekly-interno",
-      "target": "p-luis.motta@blip.ai"
     },
     {
       "source": "20260618-weekly-interno",
@@ -2178,11 +2158,31 @@
     },
     {
       "source": "20260618-weekly-interno",
-      "target": "p-willer.batista@blip.ai"
+      "target": "p-vania.rodenas@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-marcio.curvello@blip.ai"
     },
     {
       "source": "20260618-weekly-interno",
       "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-bella.trindade@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-luis.motta@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-daniel.alves@blip.ai"
+    },
+    {
+      "source": "20260618-weekly-interno",
+      "target": "p-willer.batista@blip.ai"
     },
     {
       "source": "20260618-weekly-interno",
@@ -2254,27 +2254,7 @@
     },
     {
       "source": "20260622-weekly-interno",
-      "target": "p-bella.trindade@blip.ai"
-    },
-    {
-      "source": "20260622-weekly-interno",
-      "target": "p-vania.rodenas@blip.ai"
-    },
-    {
-      "source": "20260622-weekly-interno",
       "target": "p-euleno.sousa@blip.ai"
-    },
-    {
-      "source": "20260622-weekly-interno",
-      "target": "p-daniel.alves@blip.ai"
-    },
-    {
-      "source": "20260622-weekly-interno",
-      "target": "p-marcio.curvello@blip.ai"
-    },
-    {
-      "source": "20260622-weekly-interno",
-      "target": "p-luis.motta@blip.ai"
     },
     {
       "source": "20260622-weekly-interno",
@@ -2282,11 +2262,31 @@
     },
     {
       "source": "20260622-weekly-interno",
-      "target": "p-willer.batista@blip.ai"
+      "target": "p-vania.rodenas@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-marcio.curvello@blip.ai"
     },
     {
       "source": "20260622-weekly-interno",
       "target": "p-vinicius.bandeira@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-bella.trindade@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-luis.motta@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-daniel.alves@blip.ai"
+    },
+    {
+      "source": "20260622-weekly-interno",
+      "target": "p-willer.batista@blip.ai"
     },
     {
       "source": "20260622-weekly-interno",
@@ -2446,7 +2446,7 @@
     }
   ],
   "meta": {
-    "gerado_em": "2026-06-25T20:00:03.660923",
+    "gerado_em": "2026-06-26T15:26:29.211410",
     "usuario": "willer.alberto@blip.ai",
     "total_nodes": 109,
     "total_edges": 224,
