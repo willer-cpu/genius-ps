@@ -319,8 +319,14 @@ let dragNode=null,dragOff={x:0,y:0};
 let mouseDownAt=null,hasDragged=false;
 let hoverNode=null;
 let focusMode=false;
-const REPULSION=4000,SPRING_LEN=150,SPRING_K=0.003,CENTER_K=0.0004,DAMPING=0.88,SETTLE=0.3;
+const REPULSION=4000,SPRING_LEN=150,SPRING_K=0.003,CENTER_K=0.0004,DAMPING=0.82,SETTLE=0.4;
+const MIN_DIST=24;       // piso de distância — evita repulsão explosiva entre nós quase sobrepostos
+const MAX_SPEED=22;      // limite de velocidade por frame — evita nós sendo lançados para longe
+const REPEL_RADIUS=420;  // só calcula repulsão dentro desse raio
+const GRID_CELL=REPEL_RADIUS; // tamanho da célula da grade espacial = raio de repulsão
+const MAX_SIM_FRAMES=2200; // teto de segurança — para mesmo se nunca "assentar" de verdade
 let simRunning=false;
+let simFrameCount=0;
 
 // ═══════════════════════════════════════════════════
 // ESTADO DO GENIUS / RAG
@@ -631,34 +637,79 @@ function initSim(){
   });
 }
 
+// Grade espacial: agrupa nós por célula para não comparar todo par
+// (O(n²) vira ~O(n) na prática). Só nós em células vizinhas competem
+// por repulsão — seguro porque REPEL_RADIUS == tamanho da célula.
+function buildGrid(){
+  const grid={};
+  nodes.forEach(n=>{
+    const p=pos[n.id]; if(!p) return;
+    const gx=Math.floor(p.x/GRID_CELL), gy=Math.floor(p.y/GRID_CELL);
+    const key=gx+'_'+gy;
+    if(!grid[key]) grid[key]=[];
+    grid[key].push(n);
+  });
+  return grid;
+}
+
 function runForces(){
   const cx_g=W/2,cy_g=H/2; let tv=0;
-  for(let i=0;i<nodes.length;i++) for(let j=i+1;j<nodes.length;j++){
-    const pi=pos[nodes[i].id],pj=pos[nodes[j].id];
-    const dx=pj.x-pi.x,dy=pj.y-pi.y,d=Math.sqrt(dx*dx+dy*dy)||1;
-    if(d>500) continue;
-    const f=REPULSION*(nodes[i].r||7)*(nodes[j].r||7)/64/(d*d),fx=f*dx/d,fy=f*dy/d;
-    vel[nodes[i].id].x-=fx;vel[nodes[i].id].y-=fy;vel[nodes[j].id].x+=fx;vel[nodes[j].id].y+=fy;
-  }
+  const grid=buildGrid();
+
+  // Repulsão — só entre nós na mesma célula ou em células vizinhas (3x3)
+  Object.keys(grid).forEach(key=>{
+    const [gx,gy]=key.split('_').map(Number);
+    const local=grid[key];
+    for(let dgx=-1; dgx<=1; dgx++) for(let dgy=-1; dgy<=1; dgy++){
+      const vizinhaKey=(gx+dgx)+'_'+(gy+dgy);
+      const vizinha=grid[vizinhaKey];
+      if(!vizinha) continue;
+      local.forEach(ni=>{
+        vizinha.forEach(nj=>{
+          if(ni.id>=nj.id) return; // evita processar o par duas vezes e auto-comparação
+          const pi=pos[ni.id],pj=pos[nj.id];
+          const dx=pj.x-pi.x,dy=pj.y-pi.y;
+          const dist=Math.max(Math.sqrt(dx*dx+dy*dy),MIN_DIST); // piso — evita explosão
+          if(dist>REPEL_RADIUS) return;
+          const f=REPULSION*(ni.r||7)*(nj.r||7)/64/(dist*dist),fx=f*dx/dist,fy=f*dy/dist;
+          vel[ni.id].x-=fx;vel[ni.id].y-=fy;vel[nj.id].x+=fx;vel[nj.id].y+=fy;
+        });
+      });
+    }
+  });
+
   edges.forEach(([a,b])=>{
     if(!pos[a]||!pos[b]) return;
-    const dx=pos[b].x-pos[a].x,dy=pos[b].y-pos[a].y,d=Math.sqrt(dx*dx+dy*dy)||1;
+    const dx=pos[b].x-pos[a].x,dy=pos[b].y-pos[a].y,d=Math.max(Math.sqrt(dx*dx+dy*dy),1);
     const f=(d-SPRING_LEN)*SPRING_K,fx=f*dx/d,fy=f*dy/d;
     vel[a].x+=fx;vel[a].y+=fy;vel[b].x-=fx;vel[b].y-=fy;
   });
+
   nodes.forEach(n=>{
     vel[n.id].x+=(cx_g-pos[n.id].x)*CENTER_K;vel[n.id].y+=(cy_g-pos[n.id].y)*CENTER_K;
   });
+
   nodes.forEach(n=>{
     if(dragNode===n.id) return;
-    vel[n.id].x*=DAMPING;vel[n.id].y*=DAMPING;
-    pos[n.id].x+=vel[n.id].x;pos[n.id].y+=vel[n.id].y;
-    tv+=Math.abs(vel[n.id].x)+Math.abs(vel[n.id].y);
+    const v=vel[n.id];
+    v.x*=DAMPING;v.y*=DAMPING;
+
+    // Clamp de velocidade — impede que um nó seja "lançado" para longe
+    // num único frame, que era a causa raiz dos espigões no grafo.
+    const speed=Math.sqrt(v.x*v.x+v.y*v.y);
+    if(speed>MAX_SPEED){ v.x=(v.x/speed)*MAX_SPEED; v.y=(v.y/speed)*MAX_SPEED; }
+
+    pos[n.id].x+=v.x;pos[n.id].y+=v.y;
+    tv+=Math.abs(v.x)+Math.abs(v.y);
   });
-  if(nodes.length&&tv/nodes.length<SETTLE) simRunning=false;
+
+  simFrameCount++;
+  if((nodes.length&&tv/nodes.length<SETTLE) || simFrameCount>=MAX_SIM_FRAMES){
+    simRunning=false;
+  }
 }
 
-function startSim(){simRunning=true;}
+function startSim(){simRunning=true;simFrameCount=0;}
 function loop(){if(simRunning)runForces();draw();requestAnimationFrame(loop);}
 
 // ═══════════════════════════════════════════════════
